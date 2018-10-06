@@ -1,1 +1,6 @@
 Code to get raw data
+-------------------------------------------------------
+Author: Xintong Zhao
+ScrapeTable.py:
+The python script is to scrape raw data from an online table. No need to input anything and it will ouput cleaned dataframe.
+-------------------------------------------------------
