@@ -1,0 +1,18 @@
+AREA,AGE_ADJUSTED_CI_LOWER,AGE_ADJUSTED_CI_UPPER,AGE_ADJUSTED_RATE,COUNT,EVENT_TYPE,POPULATION,RACE,SEX,SITE,YEAR,CRUDE_CI_LOWER,CRUDE_CI_UPPER,CRUDE_RATE
+United States (comparable to ICD-O-2),480.1,481.8,481.0,1290283,Incidence,272809488,All Races,Male and Female,All Cancer Sites Combined,1999,472.1,473.8,473.0
+United States (comparable to ICD-O-2),482.5,484.1,483.3,1316928,Incidence,275879626,All Races,Male and Female,All Cancer Sites Combined,2000,476.5,478.2,477.4
+United States (comparable to ICD-O-2),483.6,485.3,484.5,1357552,Incidence,282115961,All Races,Male and Female,All Cancer Sites Combined,2001,480.4,482.0,481.2
+United States (comparable to ICD-O-2),481.0,482.6,481.8,1373684,Incidence,284766512,All Races,Male and Female,All Cancer Sites Combined,2002,481.6,483.2,482.4
+United States (comparable to ICD-O-2),471.9,473.5,472.7,1385384,Incidence,290107933,All Races,Male and Female,All Cancer Sites Combined,2003,476.7,478.3,477.5
+United States (comparable to ICD-O-2),471.0,472.5,471.7,1406219,Incidence,292805298,All Races,Male and Female,All Cancer Sites Combined,2004,479.5,481.1,480.3
+United States (comparable to ICD-O-2),471.0,472.6,471.8,1432655,Incidence,295516599,All Races,Male and Female,All Cancer Sites Combined,2005,484.0,485.6,484.8
+United States (comparable to ICD-O-2),473.7,475.2,474.4,1467268,Incidence,298379912,All Races,Male and Female,All Cancer Sites Combined,2006,490.9,492.5,491.7
+United States (comparable to ICD-O-2),477.5,479.1,478.3,1510717,Incidence,301231207,All Races,Male and Female,All Cancer Sites Combined,2007,500.7,502.3,501.5
+United States (comparable to ICD-O-2),473.4,474.9,474.1,1529526,Incidence,304093966,All Races,Male and Female,All Cancer Sites Combined,2008,502.2,503.8,503.0
+United States (comparable to ICD-O-2),469.0,470.5,469.7,1546769,Incidence,306771529,All Races,Male and Female,All Cancer Sites Combined,2009,503.4,505.0,504.2
+United States (comparable to ICD-O-2),457.5,459.0,458.3,1540552,Incidence,309348193,All Races,Male and Female,All Cancer Sites Combined,2010,497.2,498.8,498.0
+United States (comparable to ICD-O-2),457.1,458.5,457.8,1570396,Incidence,311663358,All Races,Male and Female,All Cancer Sites Combined,2011,503.1,504.7,503.9
+United States (comparable to ICD-O-2),444.2,445.6,444.9,1559679,Incidence,313998379,All Races,Male and Female,All Cancer Sites Combined,2012,495.9,497.5,496.7
+United States (comparable to ICD-O-2),440.7,442.1,441.4,1580148,Incidence,316204908,All Races,Male and Female,All Cancer Sites Combined,2013,498.9,500.5,499.7
+United States (comparable to ICD-O-2),436.1,437.5,436.8,1597271,Incidence,318563456,All Races,Male and Female,All Cancer Sites Combined,2014,500.6,502.2,501.4
+United States (comparable to ICD-O-2),430.7,432.1,431.4,1610533,Incidence,320896618,All Races,Male and Female,All Cancer Sites Combined,2015,501.1,502.7,501.9

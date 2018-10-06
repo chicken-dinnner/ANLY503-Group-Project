@@ -3,3 +3,15 @@ Cleaned data
 Author: Xintong Zhao
 cleaned environmental.csv - environmental data that consists of multiple categories from 1997 to 2013
 ---------------------------------------------------
+
+Data files: 
+cancer_incidence_us.csv
+cancer_mortaloty_us.csv
+cancer_incidence_state.csv
+cancer_mortaloty_state.csv
+
+The four csv above are cancer data, cancer_incidence_us.csv and cancer_mortaloty_us.csv are US all types of cancer incidence and mortality rate data between 1999 and 2015. cancer_incidence_state.csv cancer_mortaloty_state.csv are all type of cancer incidence and mortality rate data between 1999 and 2015 by state
+
+health_annual.csv 
+This file contains predictors that are health related such as air pollution, smoking rate, obesity rate, diabetes and economic related such as household income, personal income and income inequality 
+ 
