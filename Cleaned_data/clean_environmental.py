@@ -5,19 +5,26 @@ Created on Fri Oct 12 20:15:10 2018
 
 @author: xintongzhao
 """
-
+#load packages
 import pandas as pd
 import numpy as np
-
 import matplotlib.pyplot as plt
 
-
+#load raw dataframe to prepare for data cleaning
 df = pd.read_csv('/Users/xintongzhao/git/ANLY503/Raw_data/environmental.csv')
+#keep wanted columns only
 df = df[['State','Year','Data Item','Domain','Domain Category','Value']]
+#get a list of values under column 'domain'
 domain = (list(dict.fromkeys(list(df['Domain']))))
+#get columns
 cols = list(df.columns)
 #df = df.dropna(how = 'any')
+print('Below are frist few rows from dataframe:\n')
 df.head()
+
+
+#============================================================================
+#Start cleaning: remove all noisy characters such as '\t','\n' or empty space
 for col in cols:
     list_col = list(df[col])
     if type(list_col[0])==int:
@@ -27,18 +34,30 @@ for col in cols:
     list_col = [i.replace(' ','') for i in list_col]
     df.loc[:,col]=list_col
 
+#Then, we convert numbers in string format back to float for further use
 value_list = list(df['Value'])
+#replace comma in string
 value_list = [i.replace(',','') for i in value_list]
+#convert to float
 value_list = [float(i) if i.isdigit()==True else np.nan for i in value_list]
+#write back to the dataframe
 df.loc[:,'Value']=value_list
 
 #============================================================================
+#Start visualization for data cleaning phase
+#first calculate number of records under each year
 yrs = list(dict.fromkeys(df['Year']))
 yr1 = len(list(df[df['Year']==yrs[0]]['Domain']))
 yr2 = len(list(df[df['Year']==yrs[1]]['Domain']))
 yr3 = len(list(df[df['Year']==yrs[2]]['Domain']))
 yr4 = len(list(df[df['Year']==yrs[3]]['Domain']))
 
+
+
+#Visualize: Pie chart
+#this pie chart is designed to show the weight distribution of data from each year
+#If the distribution is not similar with equally distributed then we need to make 
+#then equal
 fig, ax = plt.subplots(figsize=(8, 12), subplot_kw=dict(aspect="equal"))
 
 recipe = ["%s 1997"%(yr1),
@@ -70,11 +89,10 @@ ax.set_title("Before: Data Records Distribution from each Year")
 plt.show()
 
 
-
-
-
-
 #============================================================================
+#Further cleaning: Keep wanted sub-categories under domain category only
+#Remove rows from year 2013 since the categories from 2013 do not match those
+#from other year
 df = df.drop_duplicates(subset=list(df),keep='first')
 df = df[~df['Year'].isin([2013])]
 
@@ -88,7 +106,8 @@ df = df[~df['Data Item'].isin(ditem)]
 df = df.reset_index()
 
 #============================================================================
-
+#Visualization: Pie chart part 2
+#this shows the distribution after cleanning
 yrs = list(dict.fromkeys(df['Year']))
 yr1 = len(list(df[df['Year']==yrs[0]]['Domain']))
 yr2 = len(list(df[df['Year']==yrs[1]]['Domain']))
@@ -122,18 +141,14 @@ ax.legend(wedges, ingredients,
 plt.setp(autotexts, size=8, weight="bold")
 
 ax.set_title("After: Data Records Distribution from each Year")
-
+#show the chart
 plt.show()
-
-
-
-
-
-
-
 
 #============================================================================
 
+#Prepare for the next visualization
+#In order to show how the dataframe is cleanned, we pick one state as an example
+#and then visualize its related data below
 domains = (list(dict.fromkeys(list(df['Domain']))))
 miss=[]
 yrs = []
@@ -160,6 +175,9 @@ miss_states = list(set(list(insect[insect['Value'].isin([np.nan])]['State'])))
 miss_insect = insect[insect['State'].isin(['RHODEISLAND'])]
 
 #============================================================================
+#Continue visualization
+#Histogram which displays the value of chemical use under each sub-categories
+#This visualize data before cleanning
 FUNGICIDE = (2416,2494,2736,0)
 HERBICIDE = (7108,7121,8775,10645)
 OTHER = (206,275,275,0)
@@ -209,7 +227,8 @@ plt.show()
 
 
 #============================================================================
-
+#Histogram cont'
+#Shows data after cleaning
 
 FUNGICIDE = (2416,2494,2736,2736)
 HERBICIDE = (7108,7121,8775,10645)
@@ -259,6 +278,14 @@ autolabel(rects3)
 plt.show()
 
 #============================================================================
+#Final phase of data cleanning: fill empty values
+#Once there is an empty data in the dataframe, we cannot use this record to 
+#perform further task; However, if we simply remove the record, then this 
+#action will affect on the total completeness of dataset.
+
+#Since our data volumn is not large, in order to prevent potential data loss,
+#we decide to fill in empty data by the data which has closest date to it.
+#It could be the data value before/after the empty data, depends on which is closer.
 types = list(dict.fromkeys(df['Domain']))
 
 for state in miss_states:
@@ -289,67 +316,15 @@ for state in miss_states:
         #values = [values[idx] if np.isnan(i)==True else i for i in values]
 
             df.iloc[idx_df,6] = values[idx]
-        
 
-#df.to_csv('/Users/xintongzhao/git/ANLY503/cleaned_environmental_final.csv',index=False)
-
-#============================================================================
-#paired categorical plot
+#finally, we remove all category about fertilizer since it is not related with 
+#our study.
 df = df[~df['Domain'].isin(['FERTILIZER'])]
-
-import seaborn as sns
-sns.set(style="whitegrid")
-
-subdf = df[df['Domain']=='CHEMICAL,HERBICIDE']
-# Set up a grid to plot survival probability against several variables
-g = sns.PairGrid(subdf, y_vars="Value",
-                 x_vars=["Year"],
-                 height=10, aspect=1,size=5)
-
-# Draw a seaborn pointplot onto each Axes
-g.map(sns.pointplot, scale=1.3, errwidth=4, color="xkcd:plum")
-g.fig.suptitle('Paired Categorical Plot for Chemical Use')
-g.set(xlabel='Year', ylabel='Chemical Use Index')
-sns.despine(fig=g.fig, left=True)
-
-
+#Data cleaning ends here.
+#At last, we save the cleaned dataframe to local computer.
+df.to_csv('/Users/xintongzhao/git/ANLY503/cleaned_environmental.csv',index=False)
 
 #============================================================================
-#line chart
-# Create a random dataset across several variables
-dom = list(dict.fromkeys(df['Domain']))
-subdf = pd.DataFrame(columns = ['CHEMICAL,FUNGICIDE'])
-
-temp = df[df['Domain']=='CHEMICAL,FUNGICIDE']
-subdf.loc[:,'CHEMICAL,FUNGICIDE']=list(temp['Value'])
-# Use cubehelix to get a custom sequential palette
-pal = sns.cubehelix_palette(subdf.shape[0], rot=-.5, dark=.3)
-
-
-g = sns.violinplot(data=subdf, palette=pal, inner="points")
-g.set_title('Violin Plot of Chemical Fungicide')
-g.set_xlabel('Chemical type')
-g.set_ylabel('Chemical Use Index',fontsize = 15)
-
-#============================================================================
-#boxplot
-sns.set(style="ticks", palette="pastel")
-
-
-
-# Draw a nested boxplot to show bills by day and time
-g = sns.boxplot(x="Year", y="Value",
-            hue="Domain", palette=["m", "g","r"],
-            data=df)
-g.set_title('Boxplot related with Environmental Factors')
-g.set_xlabel('Year')
-g.set_ylabel('Chemical Use Index',fontsize = 15)
-sns.despine(offset=10, trim=True)
-
-
-
-
-
 
 
 
