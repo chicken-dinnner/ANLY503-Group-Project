@@ -46,13 +46,31 @@
 		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 1: What is the overall trending for the the age adjusted cancer incidence rate, mortality rate and death rate?</center></h1>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
-			In Exploratory Data Analysis (EDA), we propose five sub-questions. 
-		</font></p><br />
-		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			Even though the incidence rate is increasing since 1999, it does not have meaningful indication because its computation does not exclude the age effects. For example, a county having a higher percentage of elderly people may have a higher rate of death or hospitalization than a county with a younger population, merely because the elderly are more likely to die or be hospitalized. In order to make fairer comparisons between groups with different age distributions, we introduce the variable called Age adjusting rate. It can make the different groups more comparable, and same as before, the number is represent the number of cancer records per 10,000 people. For future reference, for our study, all the rates we mention are age adjusted.
 		</font></p><br />
+		<img src="cancer_incidence.png" alt="Snow" style="width:calc(80px + 62%);height: 400px;padding-left: 23%;">
+		<br />
+		<p style = "padding-left: 44%"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/stacked_bar_line.py" target="_blank">Figure 11</a> (Matplotlib)</p>
+		<br />
+		<img src="cancer_mortality.png" alt="Snow" style="width:calc(80px + 62%);height: 400px;padding-left: 23%;">
+		<br />
+		<p style = "padding-left: 44%"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/stacked_bar_line.py">Figure 12</a> (Matplotlib)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			From the above two charts, the blue bars represent the number of counts for cancer incidences and mortalities for each year across the United States, while the red line is the age adjusted rate for the incidences and mortalities for each year. We can see that even though the total number of counts for both incidence and mortality are increasing since 1999, the actual age adjusted rates are decreasing. This might due to the increase in the elderly people that have cancers. When there are more elderly people within the country, the number of cancer count would increased, but the age adjusted rate would decrease since it put less weight on the elderly people.
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Then we decided to introduce a new variable feature--death rate which is computed by the number of mortalities divides the number of incidences for each year. 
+		</font></p><br />
+		<img src="death_rate.png" alt="Snow" style="width:calc(80px + 62%);height: 400px;padding-left: 23%;">
+		<br />
+		<p style = "padding-left: 44%"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/death_rate_line.py">Figure 13</a> (Matplotlib/Pandas)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			From the line chart above, we can see that there is a significant drop for the death rate since 1999, then there a fluctuations since 2009 and stabilized after 2013.
+		</font></p><br />
 
-		
+
 
 
 	</body>

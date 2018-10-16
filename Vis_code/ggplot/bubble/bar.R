@@ -2,7 +2,7 @@ library(ggplot2)
 library(dplyr)
 
 eco <- read.csv("pie.csv")
-rate <- read.csv('~/Desktop/cancer_incidence_state.csv')
+rate <- read.csv('cancer_incidence_state.csv')
 
 df1 <- eco
 df2 <- rate[rate$AREA %in% c('Utah','Colorado','New Mexico','Arizona','California','Arkansas','Louisiana','West Virginia','Mississippi','Kentucky'),]

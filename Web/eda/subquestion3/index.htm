@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+   
+		<title>ANLY 503</title>
+		<link rel="icon" type="image/png" href="GU_icon.png">
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../css/site.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="position: fixed;">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+
+
+
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-left">
+	                    <li><a href="../../index.htm"><font size="4">Home</font></a></li>
+	                    <li><a href="../../introduction/index.htm"><font size="4">Introduction</font></a></li>
+	                    <li><a href="../../collection/index.htm"><font size="4">Data Collection</font></a></li>
+	                    <li><a href="../../cleaning/index.htm"><font size="4">Data Cleaning</font></a></li>
+	                    <li><a href="../index.htm"><font size="4">EDA</font></a></li>
+	                    <li><a href="../../ref/index.htm"><font size="4">Reference</font></a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	    </nav>
+		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 3: Is there a relationship between the cancer rate and the economic activities?</center></h1>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Since we are interested about the relationship between the cancer rate and the geographic location, we use tableau to create a map with the average cancer mortality rate from 2005 to 2015 for each states across united states. 
+		</font></p><br />
+		<div class='tableauPlaceholder' id='viz1539727813641' style='position: relative;padding-left: 8%;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015_US_Mortality_tree_map&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2015_US_Mortality_tree_map&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015_US_Mortality_tree_map&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1539727813641');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+		<p style = "padding-left: 44%"><a href="https://public.tableau.com/views/2015_US_Mortality_tree_map/Dashboard2?:embed=y&:display_count=yes&publish=yes">Figure 16 (Tableau)</a> </p>
+		<br />
+
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			For the treemap above, darker colors represent higher average cancer mortality rate. As we can see, the top five states are Kentucky, Mississippi, West Virginia, Louisiana, and Arkansas. In addition, the least five states are Utah, Colorado, New Mexico, Arizona, and California. So now, we want to only focus on these 10 states and take a look at the economics activities for each states to investigate the relationship.
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			For each states, we plot the pie chart for its average GDP output from 2005 to 2015. In general, among the total 11 categories, the portions for Finance and Manufacturing vary the most compare to the rest of the categories.
+		</font></p><br />
+		<img src="econ_pie_chart.png" alt="Snow" style="width:calc(80px + 62%);height: 400px;padding-left: 23%;">
+		<br />
+		<p style = "padding-left: 44%"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/ggplot/pie/cancer_pie_chart.R">Figure 17</a> (ggplot)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			From the line chart above, we can see that there is a significant drop for the death rate since 1999, then there a fluctuations since 2009 and stabilized after 2013.
+		</font></p><br />
+
+
+
+
+	</body>
+
