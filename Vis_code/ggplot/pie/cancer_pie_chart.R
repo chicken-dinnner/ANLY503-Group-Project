@@ -1,4 +1,4 @@
-df <- read.csv("../Cleaned_data/pie.csv")
+df <- read.csv("pie.csv")
 df$category = trimws(df$category)
 percent <- function(x, digits = 0, format = "f", ...) {
   paste0(formatC(100 * x, format = format, digits = digits, ...), "%")
