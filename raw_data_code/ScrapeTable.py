@@ -86,6 +86,6 @@ if __name__ == "__main__":
     df = scrape(url)
     print("Web scraping complete.")
     df = cleanDF(df)
-    df.to_csv('cleaned_environmental.csv',index=False)
+    df.to_csv('../Cleaned_data/cleaned_environmental.csv',index=False)
     print('DataFrame Cleaned.')
     

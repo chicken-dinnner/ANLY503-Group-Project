@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+   
+		<title>ANLY 503</title>
+		<link rel="icon" type="image/png" href="GU_icon.png">
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../css/site.css" rel="stylesheet">
+		<style>
+			a {
+			    text-decoration: none;
+			    display: inline-block;
+			    padding: 8px 16px;
+			}
+
+			a.next:hover {
+			    background-color: #ddd;
+			    color: black;
+			}
+
+
+			.next {
+			    background-color: #094dba;
+			    color: white;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="position: fixed;">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+
+
+
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-left">
+	                    <li><a href="../../index.htm"><font size="4">Home</font></a></li>
+	                    <li><a href="../../introduction/index.htm"><font size="4">Introduction</font></a></li>
+	                    <li><a href="../../collection/index.htm"><font size="4">Data Collection</font></a></li>
+	                    <li><a href="../../cleaning/index.htm"><font size="4">Data Cleaning</font></a></li>
+	                    <li><a href="../index.htm"><font size="4">EDA</font></a></li>
+	                    <li><a href="../../ref/index.htm"><font size="4">Reference</font></a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	    </nav>
+	    <div style="padding-left: calc(100px + 10%)">
+		    <a href="../subquestion1/index.htm" class = "next"> Sub-Question 1</a>
+		    <a href="../subquestion2/index.htm" class = "next"> Sub-Question 2</a>
+		    <a href="../subquestion3/index.htm" class = "next"> Sub-Question 3</a>
+		    <a href="../subquestion4/index.htm" class = "next"> Sub-Question 4</a>
+		    <a href="../subquestion5/index.htm" class = "next"> Sub-Question 5</a>
+	    </div>
+		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 4: Is there a relationship between the age adjusted cancer rate and the income, smoking, diabetes, and obesity?</center></h1>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			We first computed the correlation matrix and show it on a heatmap as below. From the visualization, we can see that the top two features that is related to the age adjusted cancer rate are smoking and diabetes. 
+		</font></p><br />
+		<img src="Corr_plt.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 400px;padding-left: calc(150px + 10%);">
+		<br />
+		<p style = "padding-left: calc(270px + 18%);"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/corr_matrix.py" target="_blank">Figure 21</a> (Seaborn)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Then we decided to conduct hypothesis tests on the relationship between smoking and age adjusted cancer rate as well as between diabetes and age adjusted cancer rate. 
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			First, for the smoking data, each point represent the single record for one state in a specific year. The H0 hypothesis is that there is no relationship between smoking and cancer rate, while H1 is there is a relationship between smoking and cancer rate.
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			We built the linear regression for the model and the following are the chart and statistic information about the regression. 
+		</font></p><br />		
+		<img src="plt_1.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 450px;padding-left: calc(150px + 10%);">
+		<img src="summary_1.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 400px;padding-left: calc(150px + 10%);">
+		<br />
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/ggplot/regression_ggplot/regression.R" target="_blank">Figure 22</a> (ggplot)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			The results indicate that all the coefficients for this model are significant, however, the R-squared is about 0.1018 which means there are only 10% variation of the data points can be explained by this linear model. 
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Similarly, for the Diabetes data, each point represent the single record for one state in a specific year. The H0 hypothesis is that there is no relationship between diabetes and cancer rate, while H1 is there is a relationship between diabetes and cancer rate.
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			We also built the linear regression for the model.
+		</font></p><br />
+		<img src="plt_2.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 450px;padding-left: calc(150px + 10%);">
+		<img src="summary_2.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 400px;padding-left: calc(150px + 10%);">
+		<br />
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/ggplot/regression_ggplot/regression.R" target="_blank">Figure 23</a> (ggplot)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Same to the smoking case, all the coefficients are significant, but the R-squared is about 0.02796 which means there are only 3% variation of the data points can be explained by this linear model. Therefore, based on our two regression models, there is no linear relationship between age adjusted cancer rate and smoking or diabetes. 
+		</font></p><br />
+		<br />
+		<br />
+
+
+
+	</body>
+

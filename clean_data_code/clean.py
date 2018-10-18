@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #load raw dataframe to prepare for data cleaning
-df = pd.read_csv('/Users/xintongzhao/git/ANLY503/Raw_data/environmental.csv')
+df = pd.read_csv('../Raw_data/environmental.csv')
 #keep wanted columns only
 df = df[['State','Year','Data Item','Domain','Domain Category','Value']]
 #get a list of values under column 'domain'
@@ -21,7 +21,6 @@ cols = list(df.columns)
 #df = df.dropna(how = 'any')
 print('Below are frist few rows from dataframe:\n')
 df.head()
-
 
 #============================================================================
 #Start cleaning: remove all noisy characters such as '\t','\n' or empty space
@@ -46,7 +45,7 @@ df.loc[:,'Value']=value_list
 #============================================================================
 #Start visualization for data cleaning phase
 #first calculate number of records under each year
-yrs = list(dict.fromkeys(df['Year']))
+yrs = sorted(list(dict.fromkeys(df['Year'])))
 yr1 = len(list(df[df['Year']==yrs[0]]['Domain']))
 yr2 = len(list(df[df['Year']==yrs[1]]['Domain']))
 yr3 = len(list(df[df['Year']==yrs[2]]['Domain']))
@@ -58,7 +57,7 @@ yr4 = len(list(df[df['Year']==yrs[3]]['Domain']))
 #this pie chart is designed to show the weight distribution of data from each year
 #If the distribution is not similar with equally distributed then we need to make 
 #then equal
-fig, ax = plt.subplots(figsize=(8, 12), subplot_kw=dict(aspect="equal"))
+fig, ax = plt.subplots(figsize=(6, 8), subplot_kw=dict(aspect="equal"))
 
 recipe = ["%s 1997"%(yr1),
           "%s 2002"%(yr2),
@@ -108,7 +107,7 @@ df = df.reset_index()
 #============================================================================
 #Visualization: Pie chart part 2
 #this shows the distribution after cleanning
-yrs = list(dict.fromkeys(df['Year']))
+yrs = sorted(list(dict.fromkeys(df['Year'])))
 yr1 = len(list(df[df['Year']==yrs[0]]['Domain']))
 yr2 = len(list(df[df['Year']==yrs[1]]['Domain']))
 yr3 = len(list(df[df['Year']==yrs[2]]['Domain']))
@@ -124,10 +123,6 @@ recipe = ["%s 1997"%(yr1),
 data = [int(x.split()[0]) for x in recipe]
 ingredients = [x.split()[-1] for x in recipe]
 
-
-def func(pct, allvals):
-    absolute = int(pct/100.*np.sum(allvals))
-    return "{:.1f}%\n({:d} Records)".format(pct, absolute)
 
 
 wedges, texts, autotexts = ax.pie(data, autopct=lambda pct: func(pct, data),
@@ -322,7 +317,7 @@ for state in miss_states:
 df = df[~df['Domain'].isin(['FERTILIZER'])]
 #Data cleaning ends here.
 #At last, we save the cleaned dataframe to local computer.
-df.to_csv('/Users/xintongzhao/git/ANLY503/cleaned_environmental.csv',index=False)
+df.to_csv('../Cleaned_data/cleaned_environmental.csv',index=False)
 
 #============================================================================
 

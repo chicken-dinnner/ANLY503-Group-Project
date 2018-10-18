@@ -13,6 +13,26 @@
 		<link rel="icon" type="image/png" href="GU_icon.png">
 		<link href="../../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../../css/site.css" rel="stylesheet">
+		<style>
+			a {
+			    text-decoration: none;
+			    display: inline-block;
+			    padding: 8px 16px;
+			}
+
+			a.next:hover {
+			    background-color: #ddd;
+			    color: black;
+			}
+
+
+			.next {
+			    background-color: #094dba;
+			    color: white;
+			}
+
+
+		</style>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="position: fixed;">
@@ -43,28 +63,34 @@
 	            <!-- /.navbar-collapse -->
 	        </div>
 	    </nav>
-		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 2: What are the top 3 cancer types in United States? For the top 3 cancers, which one has the highest death rate? Within the United States, what is the relationship between that cancer death rate and the geographic location?</center></h1>
+	    <div style="padding-left: calc(100px + 10%)">
+		    <a href="../subquestion1/index.htm" class = "next"> Sub-Question 1</a>
+		    <a href="../subquestion2/index.htm" class = "next"> Sub-Question 2</a>
+		    <a href="../subquestion3/index.htm" class = "next"> Sub-Question 3</a>
+		    <a href="../subquestion4/index.htm" class = "next"> Sub-Question 4</a>
+		    <a href="../subquestion5/index.htm" class = "next"> Sub-Question 5</a>
+	    </div>
+		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 2: What are the top 3 cancer types in the United States? What characteristics do they have?</center></h1>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			We first plotted the area charts for incidence number and mortality number of different types of cancers within the United States. The top three cancers are prostate cancer, lung cancer, and breast cancer. 
 		</font></p><br />
-		<img src="cancer_mortalities.png" alt="Snow" style="width:calc(80px + 62%);height: 800px;padding-left: 23%;">
+		<img src="cancer_mortalities.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 800px;padding-left: calc(150px + 10%);">
 		<br />
-		<p style = "padding-left: 44%"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/area_chart.py">Figure 14</a> (Matplotlib)</p>
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/area_chart.py" target="_blank">Figure 14</a> (Matplotlib)</p>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			From the above area charts, we can see that the number of incidences for the top three cancers are about the same, however, the mortality number for lung cancer is significantly higher than the other two since 1999. So we focused on the death rate for lung cancer across United States. We created a tableau map showing the death rate of lung cancer for each state. 
 		</font></p><br />
 
-		<div class='tableauPlaceholder' id='viz1539727104157' style='position: relative;padding-left: 8%;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;lu&#47;lungcancerdeathrate&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='lungcancerdeathrate&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;lu&#47;lungcancerdeathrate&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1539727104157');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='650px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-		<p style = "padding-left: 44%"><a href="https://public.tableau.com/views/lungcancerdeathrate/Dashboard1?:embed=y&:embed_code_version=3&:loadOrderID=0&:display_count=yes">Figure 15 (Tableau)</a> </p>
+		<div class='tableauPlaceholder' id='viz1539727104157' style='position: relative;padding-left: calc(50px + 8%);'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;lu&#47;lungcancerdeathrate&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='lungcancerdeathrate&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;lu&#47;lungcancerdeathrate&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1539727104157');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='650px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+		<p style = "padding-left: calc(400px + 8%);"><a href="https://public.tableau.com/views/lungcancerdeathrate/Dashboard1?:embed=y&:embed_code_version=3&:loadOrderID=0&:display_count=yes" target="_blank">Figure 15 (Tableau)</a> </p>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			The viewer are able to adjust the time period they are interested in by using the Year filter on the upper right corner. The percentage shown on the map is the average death rate of lung cancer for the selected time period. Also, the darker color represent the higher death rate. 
 		</font></p><br />
 		<br />
-		<br />
-		<br />
+	    <br />	
 
 
 
