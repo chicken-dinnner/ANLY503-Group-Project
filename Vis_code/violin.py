@@ -19,9 +19,11 @@ def violin(df):
     
     
     g = sns.violinplot(data=subdf, palette=pal, inner="points")
+    g.get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+
     g.set_title('Violin Plot of Chemical Fungicide')
     g.set_xlabel('Chemical type')
-    g.set_ylabel('Chemical Use Index',fontsize = 15)
+    g.set_ylabel('Chemical Use Index',fontsize = 8)
     
     
 if __name__ == "__main__":

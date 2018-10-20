@@ -61,7 +61,7 @@ def plot_incidence_mortality_count():
         ax = grp.plot(ax = ax, x='YEAR', y='CRUDE_RATE',label = key)
     
     ax.set_title('Incidence Rate and Mortality Rate between 1999 and 2015')
-    ax.set_ylabel('Rate')
+    ax.set_ylabel('Number of Cases per 100,000 People')
     ax.set_xlabel('Year')
     
 plot_incidence_mortality_count() 

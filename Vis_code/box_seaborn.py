@@ -16,18 +16,18 @@ def box_seaborn(df):
     sns.set(style="ticks", palette="pastel")
     
     
-    plt.figure(figsize=(15,8))
+    plt.figure(figsize=(8,6))
     # Draw a nested boxplot to show bills by day and time
     g = sns.boxplot(x="Year", y="Value",
                 hue="Domain", palette=["m", "g","r"],
                 data=df)
-    g.set_title('Boxplot related with Environmental Factors',fontsize = 15)
-    g.set_xlabel('Year',fontsize =15)
-    g.set_ylabel('Chemical Use Index',fontsize = 15)
+    g.set_title('Range of Different Chemical Uses',fontsize = 12)
+    g.set_xlabel('Year',fontsize =10)
+    g.set_ylabel('Chemical Use Index',fontsize = 10)
     
     sns.despine(offset=10, trim=True)
 
     
 if __name__ == "__main__":
-    df = pd.read_csv('cleaned_environmental.csv')
+    df = pd.read_csv('../Cleaned_data/cleaned_environmental.csv')
     box_seaborn(df)
