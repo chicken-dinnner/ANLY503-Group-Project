@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 12 20:15:10 2018
 
-@author: xintongzhao
-"""
 #load packages
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import ticker
+
 
 #load raw dataframe to prepare for data cleaning
 df = pd.read_csv('../Raw_data/environmental.csv')
@@ -57,7 +55,7 @@ yr4 = len(list(df[df['Year']==yrs[3]]['Domain']))
 #this pie chart is designed to show the weight distribution of data from each year
 #If the distribution is not similar with equally distributed then we need to make 
 #then equal
-fig, ax = plt.subplots(figsize=(6, 8), subplot_kw=dict(aspect="equal"))
+fig, ax = plt.subplots(figsize=(8, 12), subplot_kw=dict(aspect="equal"))
 
 recipe = ["%s 1997"%(yr1),
           "%s 2002"%(yr2),
@@ -70,7 +68,7 @@ ingredients = [x.split()[-1] for x in recipe]
 
 def func(pct, allvals):
     absolute = int(pct/100.*np.sum(allvals))
-    return "{:.1f}%\n({:d} Records)".format(pct, absolute)
+    return "{:.1f}%\n({:,} Records)".format(pct, absolute)
 
 
 wedges, texts, autotexts = ax.pie(data, autopct=lambda pct: func(pct, data),
@@ -83,7 +81,7 @@ ax.legend(wedges, ingredients,
 
 plt.setp(autotexts, size=8, weight="bold")
 
-ax.set_title("Before: Data Records Distribution from each Year")
+ax.set_title("Before: Data Records Distribution")
 
 plt.show()
 
@@ -135,7 +133,7 @@ ax.legend(wedges, ingredients,
 
 plt.setp(autotexts, size=8, weight="bold")
 
-ax.set_title("After: Data Records Distribution from each Year")
+ax.set_title("After: Data Records Distribution")
 #show the chart
 plt.show()
 
@@ -181,7 +179,7 @@ OTHER = (206,275,275,0)
 ind = np.arange(len(HERBICIDE))  # the x locations for the groups
 width = 0.35  # the width of the bars
 
-fig, ax = plt.subplots(figsize = (15,10))
+fig, ax = plt.subplots(figsize = (8,8))
 rects1 = ax.bar(ind, FUNGICIDE, width/2,
                 color='SkyBlue', label='FUNGICIDE')
 rects2 = ax.bar(ind + width/2, HERBICIDE, width/2,
@@ -191,6 +189,8 @@ rects3 = ax.bar(ind - width/2, OTHER, width/2,
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.set_ylabel('Chemical Use Index')
 ax.set_title('Before: Chemical in 3 Categories Per Year')
+ax.get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+
 ax.set_xticks(ind)
 ax.set_xlabel('Year')
 ax.set_xticklabels(('1997', '2002', '2007', '2012'))
@@ -207,12 +207,12 @@ def autolabel(rects, xpos='center'):
 
     xpos = xpos.lower()  # normalize the case of the parameter
     ha = {'center': 'center', 'right': 'left', 'left': 'right'}
-    offset = {'center': 0.5, 'right': 0.57, 'left': 0.43}  # x_txt = x + w*off
+    offset = {'center': 0.4, 'right': 0.47, 'left': 0.33}  # x_txt = x + w*off
 
     for rect in rects:
         height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width()*offset[xpos], 1.01*height,
-                '{}'.format(height), ha=ha[xpos], va='bottom')
+        ax.text(rect.get_x() + rect.get_width()*0.9*offset[xpos], 1.01*height,
+                '{:,}'.format(height), ha=ha[xpos], va='bottom')
 
 
 autolabel(rects1)
@@ -233,7 +233,7 @@ OTHER = (206,275,275,275)
 ind = np.arange(len(HERBICIDE))  # the x locations for the groups
 width = 0.35  # the width of the bars
 
-fig, ax = plt.subplots(figsize = (15,10))
+fig, ax = plt.subplots(figsize = (8,8))
 rects1 = ax.bar(ind, FUNGICIDE, width/2,
                 color='SkyBlue', label='FUNGICIDE')
 rects2 = ax.bar(ind + width/2, HERBICIDE, width/2,
@@ -245,26 +245,11 @@ ax.set_ylabel('Chemical Use Index')
 ax.set_title('After: Chemical in 3 Categories Per Year')
 ax.set_xticks(ind)
 ax.set_xlabel('Year')
+ax.get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+
 ax.set_xticklabels(('1997', '2002', '2007', '2012'))
 ax.legend()
 
-
-def autolabel(rects, xpos='center'):
-    """
-    Attach a text label above each bar in *rects*, displaying its height.
-
-    *xpos* indicates which side to place the text w.r.t. the center of
-    the bar. It can be one of the following {'center', 'right', 'left'}.
-    """
-
-    xpos = xpos.lower()  # normalize the case of the parameter
-    ha = {'center': 'center', 'right': 'left', 'left': 'right'}
-    offset = {'center': 0.5, 'right': 0.57, 'left': 0.43}  # x_txt = x + w*off
-
-    for rect in rects:
-        height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width()*offset[xpos], 1.01*height,
-                '{}'.format(height), ha=ha[xpos], va='bottom')
 
 
 autolabel(rects1)

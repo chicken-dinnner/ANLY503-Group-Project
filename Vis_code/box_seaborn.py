@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 16 16:59:12 2018
 
-@author: xintongzhao
-"""
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -21,6 +17,8 @@ def box_seaborn(df):
     g = sns.boxplot(x="Year", y="Value",
                 hue="Domain", palette=["m", "g","r"],
                 data=df)
+    g.get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+
     g.set_title('Range of Different Chemical Uses',fontsize = 12)
     g.set_xlabel('Year',fontsize =10)
     g.set_ylabel('Chemical Use Index',fontsize = 10)

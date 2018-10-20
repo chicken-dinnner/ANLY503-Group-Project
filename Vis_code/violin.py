@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from matplotlib import ticker
+
 
 def violin(df):
     #============================================================================
@@ -22,7 +24,7 @@ def violin(df):
     g.get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
 
     g.set_title('Violin Plot of Chemical Fungicide')
-    g.set_xlabel('Chemical type')
+#    g.set_xlabel('Chemical type')
     g.set_ylabel('Chemical Use Index',fontsize = 8)
     
     

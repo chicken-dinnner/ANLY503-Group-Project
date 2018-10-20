@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from matplotlib import ticker
+
 #paired categorical plot
 
 def paired_categ(df):
@@ -16,12 +18,16 @@ def paired_categ(df):
     # Set up a grid to plot survival probability against several variables
     g = sns.PairGrid(subdf, y_vars="Value",
                      x_vars=["Year"],
-                     aspect=1,size=7)
+                     aspect=1,size=6)
     
     # Draw a seaborn pointplot onto each Axes
+    
     g.map(sns.pointplot, scale=1.3, errwidth=3, color="xkcd:plum")
     g.fig.suptitle('Paired Categorical Plot for Chemical Use')
     g.set(xlabel='Year', ylabel='Chemical Use Index')
+    g.axes[0][0].get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+
+
     sns.despine(fig=g.fig, left=True)
 
 

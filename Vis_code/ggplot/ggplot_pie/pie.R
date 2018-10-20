@@ -18,11 +18,10 @@ bp<- ggplot(df_new, aes(x="", y=percentage, fill=category))+
   geom_bar(width = 1, stat = "identity")+ 
   coord_polar("y", start=0)+
   facet_wrap(~state, ncol=5)+
-  scale_fill_manual(values=c("deepskyblue", 'red','blue'))+
+  scale_fill_manual(values=c("green", 'red','deepskyblue'))+
   theme(axis.text.x=element_blank(),legend.position="bottom")+
   geom_text(aes(label = percent(percentage)), position = position_stack(vjust = 0.5))+
   ggtitle("State Economics Pie Chart")+
   theme(plot.title = element_text(hjust = 0.5))
 
 bp
-

@@ -1,3 +1,4 @@
+library(ggplot2)
 df <- read.csv("regression.csv")
 # create multiple linear model
 lm_fit_diabetes <- lm(r ~ d, data=df)
@@ -14,9 +15,10 @@ summary(lm_fit_smoking)
 ggplot(data = df, aes(x = d, y = r)) + 
   geom_point(color='red') +
   geom_smooth(method = "lm", se = FALSE)+
-  xlab('diabetes people per 100 people')+
-  ylab('cancer people per 10k people')+
-  ggtitle('                                     Linear Regression between Cancer Rate and Diabetes Rate     ')
+  xlab('Diabetes People per 100 People')+
+  ylab('Cancer People per 10K People')+
+  ggtitle('Linear Regression between Cancer Incidence Rate and Diabetes Rate')+
+  theme(plot.title = element_text(hjust = 0.5))
 
 
 
@@ -24,6 +26,7 @@ ggplot(data = df, aes(x = d, y = r)) +
 ggplot(data = df, aes(x = s, y = r)) + 
   geom_point(color='red') +
   geom_smooth(method = "lm", se = FALSE)+
-  xlab('smoking people per 100 people')+
-  ylab('cancer people per 10k people')+
-  ggtitle('                                     Linear Regression between Cancer Rate and Smoking Rate     ')
+  xlab('Smoking People per 100 People')+
+  ylab('Cancer People per 100K People')+
+  ggtitle('Linear Regression between Cancer Incidence Rate and Smoking Rate')+
+  theme(plot.title = element_text(hjust = 0.5))

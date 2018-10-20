@@ -12,4 +12,6 @@ ggplot(data=df, aes(x=YEAR, y=AGE_ADJUSTED_RATE, group=AREA)) +
                                     face="bold.italic"),
         strip.text.y = element_text(size=12, color="red",
                                     face="bold.italic"))+
-  ggtitle('                                                                       line Chart for Cancer Incidence by State in USA from 1999 to 2015')
+  ggtitle('                                          line Chart for Cancer Incidence by State in USA from 1999 to 2015')+
+  xlab('Year')+
+  ylab('Age Adjusted Cancer Rate (Number per 100K People)')

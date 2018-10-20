@@ -76,12 +76,14 @@ ax.stackplot(x,y, labels=['Number of Incidences of Prostate Cancer',
 ax.legend(loc='upper left')
 ax.set_ylim([0,2000000])
 ax.set_xlabel('Year')
+
 ax.set_ylabel('Number of Incidences')
 ax.set_title('Number of Incidences of Different Types of Cancers between 1999 and 2015')
 
+ax.get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
 
 y=[prostate_count_mortality,lung_count_mortality,breast_count_mortality,other_count_mortality]
- 
+
 # Basic stacked area chart.
 ax2.stackplot(x,y, labels=['Number of Mortalities of Prostate Cancer',
                            'Number of Mortalities of Lung Cancer',
@@ -93,3 +95,4 @@ ax2.set_xlabel('Year')
 ax2.set_ylabel('Number of Mortalities')
 ax2.set_title('Number of Mortalities of Different Types of Cancers between 1999 and 2015')
 
+ax2.get_yaxis().set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))

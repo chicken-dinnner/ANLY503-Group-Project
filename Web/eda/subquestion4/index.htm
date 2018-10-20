@@ -70,17 +70,17 @@
 		    <a href="../subquestion4/index.htm" class = "next"> Sub-Question 4</a>
 		    <a href="../subquestion5/index.htm" class = "next"> Sub-Question 5</a>
 	    </div>
-		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 4: Is there a relationship between the age adjusted cancer rate and the income, smoking, diabetes, and obesity?</center></h1>
+		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 4: Is there a relationship between the age-adjusted cancer rate and income, smoking, diabetes, and obesity?</center></h1>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
-			We first computed the correlation matrix and show it on a heatmap as below. From the visualization, we can see that the top two features that is related to the age adjusted cancer rate are smoking and diabetes. 
+			We first computed the correlation matrix and show it on a heatmap as below. From the visualization, we can see that the top two features that are related to the age-adjusted cancer rate are smoking and diabetes. 
 		</font></p><br />
 		<img src="Corr_plt.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 400px;padding-left: calc(150px + 10%);">
 		<br />
 		<p style = "padding-left: calc(270px + 18%);"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/corr_matrix.py" target="_blank">Figure 21</a> (Seaborn)</p>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
-			Then we decided to conduct hypothesis tests on the relationship between smoking and age adjusted cancer rate as well as between diabetes and age adjusted cancer rate. 
+			Then we decided to conduct hypothesis tests on the relationship between smoking and age-adjusted cancer rate as well as between diabetes and age-adjusted cancer rate. 
 		</font></p><br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			First, for the smoking data, each point represent the single record for one state in a specific year. The H0 hypothesis is that there is no relationship between smoking and cancer rate, while H1 is there is a relationship between smoking and cancer rate.
@@ -108,7 +108,7 @@
 		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/ggplot/regression_ggplot/regression.R" target="_blank">Figure 23</a> (ggplot)</p>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
-			Same to the smoking case, all the coefficients are significant, but the R-squared is about 0.02796 which means there are only 3% variation of the data points can be explained by this linear model. Therefore, based on our two regression models, there is no linear relationship between age adjusted cancer rate and smoking or diabetes. 
+			Same to the smoking case, all the coefficients are significant, but the R-squared is about 0.02796 which means there are only 3% variation of the data points can be explained by this linear model. Therefore, based on our two regression models, there is no linear relationship between the age-adjusted cancer rate and smoking or diabetes. 
 		</font></p><br />
 		<br />
 		<br />
