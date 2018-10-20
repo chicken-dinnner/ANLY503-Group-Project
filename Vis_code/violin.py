@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 16 16:57:41 2018
 
-@author: xintongzhao
-"""
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -29,5 +25,5 @@ def violin(df):
     
     
 if __name__ == "__main__":
-    df = pd.read_csv('cleaned_environmental.csv')
+    df = pd.read_csv('../Cleaned_data/cleaned_environmental.csv')
     violin(df)
