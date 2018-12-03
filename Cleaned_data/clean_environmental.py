@@ -19,7 +19,7 @@ domain = (list(dict.fromkeys(list(df['Domain']))))
 #get columns
 cols = list(df.columns)
 #df = df.dropna(how = 'any')
-print('Below are frist few rows from dataframe:\n')
+print('Below are first few rows from dataframe:\n')
 df.head()
 
 
