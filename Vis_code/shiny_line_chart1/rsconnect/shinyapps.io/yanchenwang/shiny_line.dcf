@@ -1,0 +1,12 @@
+name: shiny_line
+title: shiny_line
+username:
+account: yanchenwang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 600691
+bundleId: 1735214
+url: https://yanchenwang.shinyapps.io/shiny_line/
+when: 1543803384.65055
+asMultiple: FALSE
+asStatic: FALSE
