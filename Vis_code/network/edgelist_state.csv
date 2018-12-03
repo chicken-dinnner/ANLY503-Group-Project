@@ -1,0 +1,157 @@
+SourceNmae,TargetName,SourceID,TargetID,CosSim
+Alabama,Tennessee,0,42,0.886488895
+Alabama,South Carolina,0,40,0.934927858
+Alabama,Louisiana,0,18,0.890456142
+Alaska,Minnesota,1,23,0.777219142
+Alaska,New Hampshire,1,29,0.909332557
+Alaska,Wisconsin,1,50,0.914575403
+Arizona,United States,2,44,0.713460999
+Arizona,Illinois,2,13,0.595818608
+Arizona,Pennsylvania,2,38,0.622551044
+Arkansas,West Virginia,3,49,0.926478235
+Arkansas,Tennessee,3,42,0.85024858
+Arkansas,Louisiana,3,18,0.921128898
+California,New Jersey,4,30,0.869050402
+California,Massachusetts,4,21,0.867103845
+California,Rhode Island,4,39,0.890470034
+Colorado,Connecticut,5,6,0.920354996
+Colorado,Massachusetts,5,21,0.71525467
+Colorado,New Hampshire,5,29,0.973206161
+Connecticut,Massachusetts,6,21,0.902177004
+Connecticut,New Jersey,6,30,0.956058185
+Connecticut,Colorado,6,5,0.920354996
+Delaware,Wisconsin,7,50,0.942703375
+Delaware,Nebraska,7,27,0.923261706
+Delaware,Iowa,7,15,0.885102831
+District of Columbia,New York,8,32,0.860582382
+District of Columbia,Rhode Island,8,39,0.818709842
+District of Columbia,Massachusetts,8,21,0.377707671
+Florida,New Mexico,9,31,0.8853518
+Florida,Arizona,9,2,0.552697302
+Florida,Texas,9,43,0.960088159
+Georgia,Michigan,10,22,0.87749545
+Georgia,Pennsylvania,10,38,1
+Georgia,Kansas,10,16,0.898235671
+Hawaii,Maryland,11,20,0.744415506
+Hawaii,New Jersey,11,30,0.896239097
+Hawaii,New Hampshire,11,29,0.818401926
+Idaho,Kansas,12,16,0.868786622
+Idaho,Michigan,12,22,0.877968721
+Idaho,Georgia,12,10,0.943850903
+Illinois,Oregon,13,37,0.986395456
+Illinois,United States,13,44,0.959034709
+Illinois,Arizona,13,2,0.595818608
+Indiana,Ohio,14,35,0.870407253
+Indiana,Missouri,14,25,0.927236837
+Indiana,Maine,14,19,0.850733949
+Iowa,Nebraska,15,27,0.990955624
+Iowa,North Dakota,15,34,0.854905022
+Iowa,Wisconsin,15,50,0.912554105
+Kansas,Idaho,16,12,0.868786622
+Kansas,Michigan,16,22,0.591717039
+Kansas,North Dakota,16,34,0.790416668
+Kentucky,Oklahoma,17,36,0.81708116
+Kentucky,Arkansas,17,3,0.823063535
+Kentucky,Montana,17,26,0.945435987
+Louisiana,Alabama,18,0,0.890456142
+Louisiana,Mississippi,18,24,0.945333979
+Louisiana,Tennessee,18,42,0.955784675
+Maine,Michigan,19,22,0.826715089
+Maine,Ohio,19,35,0.919843107
+Maine,Missouri,19,25,0.93920568
+Maryland,Hawaii,20,11,0.744415506
+Maryland,Washington,20,48,0.970581973
+Maryland,New Jersey,20,30,0.762945677
+Massachusetts,Connecticut,21,6,0.902177004
+Massachusetts,New Jersey,21,30,0.834235962
+Massachusetts,Rhode Island,21,39,0.859955372
+Michigan,Maine,22,19,0.826715089
+Michigan,Georgia,22,10,0.87749545
+Michigan,Pennsylvania,22,38,0.890572217
+Minnesota,New Hampshire,23,29,0.826962043
+Minnesota,Washington,23,48,0.94578396
+Minnesota,Virginia,23,47,0.757626933
+Mississippi,Louisiana,24,18,0.945333979
+Mississippi,Alabama,24,0,0.822451652
+Mississippi,Arkansas,24,3,0.920603491
+Missouri,Ohio,25,35,0.992087012
+Missouri,Maine,25,19,0.93920568
+Missouri,Indiana,25,14,0.927236837
+Montana,Ohio,26,35,0.851155774
+Montana,Missouri,26,25,0.815054078
+Montana,Oklahoma,26,36,0.610311969
+Nebraska,Iowa,27,15,0.990955624
+Nebraska,Wisconsin,27,50,0.909356422
+Nebraska,Idaho,27,12,0.963117617
+Nevada,Wyoming,28,51,0.974134128
+Nevada,Maine,28,19,0.870553849
+Nevada,Delaware,28,7,0.846055499
+New Hampshire,Minnesota,29,23,0.826962043
+New Hampshire,Maryland,29,20,0.84995964
+New Hampshire,Hawaii,29,11,0.818401926
+New Jersey,Connecticut,30,6,0.956058185
+New Jersey,Massachusetts,30,21,0.834235962
+New Jersey,Maryland,30,20,0.762945677
+New Mexico,North Carolina,31,33,0.880776053
+New Mexico,Oklahoma,31,36,0.818946497
+New Mexico,Tennessee,31,42,0.959517007
+New York,District of Columbia,32,8,0.860582382
+New York,Arizona,32,2,0.745088753
+New York,Rhode Island,32,39,0.971587389
+North Carolina,Oklahoma,33,36,0.945411263
+North Carolina,Tennessee,33,42,0.953218028
+North Carolina,New Mexico,33,31,0.880776053
+North Dakota,South Dakota,34,41,0.589105383
+North Dakota,Kansas,34,16,0.790416668
+North Dakota,Michigan,34,22,0.668425416
+Ohio,Missouri,35,25,0.992087012
+Ohio,Maine,35,19,0.919843107
+Ohio,Indiana,35,14,0.870407253
+Oklahoma,Tennessee,36,42,0.903078774
+Oklahoma,North Carolina,36,33,0.945411263
+Oklahoma,South Carolina,36,40,0.816063419
+Oregon,Illinois,37,13,0.986395456
+Oregon,United States,37,44,0.991464096
+Oregon,Idaho,37,12,0.952938202
+Pennsylvania,Maine,38,19,0.895030595
+Pennsylvania,Michigan,38,22,0.890572217
+Pennsylvania,Georgia,38,10,1
+Rhode Island,Illinois,39,13,0.796630754
+Rhode Island,Arizona,39,2,0.736826956
+Rhode Island,United States,39,44,0.875999632
+South Carolina,Alabama,40,0,0.934927858
+South Carolina,Tennessee,40,42,0.828150669
+South Carolina,Oklahoma,40,36,0.816063419
+South Dakota,North Dakota,41,34,0.589105383
+South Dakota,Missouri,41,25,0.374363073
+South Dakota,Michigan,41,22,0
+Tennessee,Oklahoma,42,36,0.903078774
+Tennessee,Alabama,42,0,0.886488895
+Tennessee,North Carolina,42,33,0.953218028
+Texas,United States,43,44,0.923949574
+Texas,Kansas,43,16,0.929193731
+Texas,Arizona,43,2,0.568976141
+United States,Arizona,44,2,0.713460999
+United States,Oregon,44,37,0.991464096
+United States,Illinois,44,13,0.959034709
+Utah,Maryland,45,20,0.764648933
+Utah,New Hampshire,45,29,0.46266279
+Utah,Minnesota,45,23,0.836901275
+Vermont,Virginia,46,47,0.911038649
+Vermont,Washington,46,48,0.848096737
+Vermont,Wisconsin,46,50,0.943594704
+Virginia,Washington,47,48,0.927422124
+Virginia,Vermont,47,46,0.911038649
+Virginia,Maryland,47,20,0.850236672
+Washington,Virginia,48,47,0.927422124
+Washington,Vermont,48,46,0.848096737
+Washington,Maryland,48,20,0.970581973
+West Virginia,Arkansas,49,3,0.926478235
+West Virginia,South Carolina,49,40,0.686948289
+West Virginia,Tennessee,49,42,0.806753506
+Wisconsin,Nebraska,50,27,0.909356422
+Wisconsin,Iowa,50,15,0.912554105
+Wisconsin,Delaware,50,7,0.942703375
+Wyoming,Nevada,51,28,0.974134128
+Wyoming,Wisconsin,51,50,0.885408795
+Wyoming,Delaware,51,7,0.892159264

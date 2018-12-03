@@ -1,0 +1,12 @@
+name: line_chart
+title: line_chart
+username:
+account: yanchenwang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 593747
+bundleId: 1734524
+url: https://yanchenwang.shinyapps.io/line_chart/
+when: 1543777713.35049
+asMultiple: FALSE
+asStatic: FALSE

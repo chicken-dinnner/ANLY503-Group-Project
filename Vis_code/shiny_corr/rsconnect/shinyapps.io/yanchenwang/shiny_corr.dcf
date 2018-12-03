@@ -1,0 +1,12 @@
+name: shiny_corr
+title: shiny_corr
+username:
+account: yanchenwang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 600260
+bundleId: 1734876
+url: https://yanchenwang.shinyapps.io/shiny_corr/
+when: 1543791072.16939
+asMultiple: FALSE
+asStatic: FALSE
