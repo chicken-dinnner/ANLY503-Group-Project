@@ -38,9 +38,9 @@ ui <- fluidPage(
          sidebarPanel(
            checkboxGroupInput("l_state", "Choose from Five States with Lowest Cancer Rate:",
                               choiceNames =
-                                list('Arkansas','California','Colorado','New Mexico','Utah'),
+                                list('Arizona','California','Colorado','New Mexico','Utah'),
                               choiceValues =
-                                list("Arkansas", "California", "Colorado", "New Mexico",
+                                list("Arizona", "California", "Colorado", "New Mexico",
                                      "Utah"),
                               selected = list("California")),
            width = 10
