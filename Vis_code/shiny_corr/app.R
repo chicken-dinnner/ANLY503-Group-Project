@@ -49,7 +49,7 @@ server <- function(input, output, session) {
   #res <- cor(my_data)
   output$caption <- renderText({
     o <- paste(input$icons, collapse = ", ")
-    paste("You chose", o)
+    paste("Variables Chosen:", o)
   })
   output$corr_plt <- renderPlot({
     corrplot(cor(df_corr[input$icons]),method="color",tl.col="black",
