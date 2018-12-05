@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+   
+		<title>ANLY 503</title>
+		<link rel="icon" type="image/png" href="GU_icon.png">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/site.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="position: fixed;">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+
+
+
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-left">
+	                    <li><a href="../../index.htm"><font size="4">Home</font></a></li>
+	                    <li><a href="../../Part1/index.htm"><font size="4">Project Part 1</font></a></li>
+	                    <li><a href="../index.htm"><font size="4">Project Part 2</font></a></li>
+	                    <li><a href="index.htm"><font size="4">Introduction</font></a></li>
+	                    <li><a href="../eda/index.htm"><font size="4">Visual Analysis</font></a></li>
+	                    <li><a href="../conclusion/index.htm"><font size="4">Conclusion</font></a></li>
+	                    <li><a href="../ref/index.htm"><font size="4">Reference</font></a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	    </nav>
+		<h1 style="padding-left: calc(80px + 30%)">Introduction</h1>
+		<br />
+		<div class='tableauPlaceholder' id='viz1544034418860' style='position: relative;padding-left: 8%; width: 800px'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Intro-wordcloud&#47;sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Intro-wordcloud&#47;sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Intro-wordcloud&#47;sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1544034418860');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='90%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+	
+		<p style = "padding-left: calc(180px + 25%)"><a href="https://public.tableau.com/profile/jun.wang3104#!/vizhome/Intro-wordcloud/sheet1?publish=yes" target="_blank">Figure 1</a> (Tableau Wordcloud)</p>
+
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			What are the common causes of death in the United States? According to the data from world health organization <a href="../ref/index/htm" target="_blank">[1]</a>, various types of cancers and heart disease are the world’s biggest killers and these diseases have remained the leading causes of death globally for more than a decade. Since cancers are one of the biggest causes of death, we decided to make further investigation and analysis about it. </font>
+		</p><br />
+		<img src="intro_1.png" alt="Snow" style="width:calc(300px + 40%);max-width: 900px; height: 400px;padding-left: calc(100px + 10%);">
+		<br />
+		<p style = "padding-left: calc(180px + 25%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/incidence_and_mortality_line.py" target="_blank">Figure 2</a> (Matplotlib)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Here is the graph for trending of cancer incidence rate and mortality rate from 1999 to 2015. Both rates represent the number of count per 100,000 people. In general, the mortality rate for cancer is decreasing or about the same since 1999 while the values for incidence rate keep increasing. Therefore, it will be interesting and meaningful for us to identify the potential factors that cause or related to cancers. </font>
+		</p> <br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			In the United States, cancer incidence and mortality rates differ a lot between different states. 
+		</font></p><br />
+		<img src="intro_2.png" alt="Snow" style="width:calc(300px + 40%);max-width: 900px; height: 400px;padding-left: calc(100px + 10%);">
+		<br />
+		<p style = "padding-left: calc(180px + 25%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/wordcloud.ipynb" target="_blank">Figure 3</a> (Python word cloud)</p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			The word cloud above shows cancer incidence rate for each state in the United States. Bigger font represents higher cancer incidence rate for that state. From the graph, it seems like that Louisiana, Kentucky, Mississippi and Ohio have relatively higher cancer incidence rate compared to other states. It would be interesting to investigate reasons why that some states have higher cancer rate than others.
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Overall, we want to investigate the relationship between the aggregated cancer rates and the geographic location, economic and agricultural factors, people’s health condition as well as median household income across the United States, from 1999 to 2015. As mentioned at the beginning, it is meaningful to study these relationships because cancers are the leading cause of death for more than a decade and people are all concerned about cancers prevention and put great effort into reducing the overall cancers rates. In our study, we will take a look at this relationship by various main factors year to year. As a result, based on different types of visualizations we provided, people will have a better overall understanding about the trending of the aggregated cancer rates as well as its related features. We collected cancer data, health condition, and income data as well as economic and agricultural factors data. More information about data collection and data cleaning can be found <a href="../../Part1/collection/index.htm"> here</a>. 
+		</font></p>
+		<br />
+		<br />
+		<br />
+
+	</body>
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+   
+		<title>ANLY 503</title>
+		<link rel="icon" type="image/png" href="GU_icon.png">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/site.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="position: fixed;">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+
+
+
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-left">
+	                    <li><a href="../../index.htm"><font size="4">Home</font></a></li>
+	                    <li><a href="../index.htm"><font size="4">Project Part 1</font></a></li>
+	                    <li><a href="../../Part2/index.htm"><font size="4">Project Part 2</font></a></li>
+	                    <li><a href="../introduction/index.htm"><font size="4">Introduction</font></a></li>
+	                    <li><a href="index.htm"><font size="4">Data Collection</font></a></li>
+	                    <li><a href="../cleaning/index.htm"><font size="4">Data Cleaning</font></a></li>
+	                    <li><a href="../eda/index.htm"><font size="4">EDA</font></a></li>
+	                    <li><a href="../ref/index.htm"><font size="4">Reference</font></a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	    </nav>
+		<h1 style="padding-left: calc(80px + 30%)">Data Collection</h1>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Overall, we collected cancer data, health condition, and income data as well as economic and agricultural factors data. We gathered this four datasets from distinct data sources using two different methods.</font>
+		</font></p><br /> 
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			For the United States Cancer Statistics Data, we downloaded the zip of excel files on the CDC (Centers for Disease Control and Prevention) <a href="../ref/index.htm">[1]</a>. It contains the incidence count and rate(overall and by sex) as well as the mortality count and rate(overall and by sex) at both country level and state level from 1999 to 2015. 
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			For the Health Condition Data, it is the annual report from America’s Health Rankings - United Health Foundation <a href="../ref/index.htm">[2]</a>. We downloaded the excel files of each year’s annual reports from 1999 to 2015 and joined all the files into an overall big excel table. It has various measure name such as smoking, obesity, median household income, etc.. In addition, for each measure, there are state name, rank, and value associated with it. 
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			The economic data is one of the subsection from the national data on the BEA (Bureau of Economic Analysis) <a href="../ref/index.htm">[3]</a> website. 
+		</p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Finally, for the agricultural data, we obtained it from the national agricultural statistics service on USDA(United States Department of Agriculture) <a href="../ref/index.htm">[4]</a> by web scraping. The data contains state name, commodity name, value, and the domain such as chemical and fertilizer for 1997, 2002, 2007, 2012, and 2013.
+		</font></p><br />
+
+<div id="container">
+  <div id="htmlwidget-af73297a22f13341b6e1" style="width:960px;height:900px; position: absolute;" class="forceNetwork html-widget"></div>
+</div>
+
+
+</body>
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+   
+		<title>ANLY 503</title>
+		<link rel="icon" type="image/png" href="GU_icon.png">
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../css/site.css" rel="stylesheet">
+		<style>
+			a {
+			    text-decoration: none;
+			    display: inline-block;
+			    padding: 8px 16px;
+			}
+			a.one{
+				padding: 0px;
+			}
+
+			a.next:hover {
+			    background-color: #ddd;
+			    color: black;
+			}
+
+
+			.next {
+			    background-color: #094dba;
+			    color: white;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="position: fixed;">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+
+
+
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-left">
+	                    <li><a href="../../../index.htm"><font size="4">Home</font></a></li>
+	                    <li><a href="../../../Part1/index.htm"><font size="4">Project Part 1</font></a></li>
+	                    <li><a href="../../index.htm"><font size="4">Project Part 2</font></a></li>
+	                    <li><a href="../../introduction/index.htm"><font size="4">Introduction</font></a></li>
+	                    <li><a href="../index.htm"><font size="4">Visual Analysis</font></a></li>
+	                    <li><a href="../../conclusion/index.htm"><font size="4">Conclusion</font></a></li>
+	                    <li><a href="../../ref/index.htm"><font size="4">Reference</font></a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	    </nav>
+	    <div style="padding-left: calc(100px + 10%)">
+		    <a href="../subquestion1/index.htm" class = "next"> Sub-Question 1</a>
+		    <a href="../subquestion2/index.htm" class = "next"> Sub-Question 2</a>
+		    <a href="../subquestion3/index.htm" class = "next"> Sub-Question 3</a>
+		    <a href="../subquestion4/index.htm" class = "next"> Sub-Question 4</a>
+		    <a href="../subquestion5/index.htm" class = "next"> Sub-Question 5</a>
+	    </div>
+		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 3: Is There a Relationship between Cancer Incidence Rate and Income, Smoking, Diabetes, and Obesity?</center></h1>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			We first created an interactive correlation matrix and showed it on a heatmap below. The viewer is able to select the features that he or she is interested in then the corresponding <a class="one" href="https://yanchenwang.shinyapps.io/shiny_corr" target="_blank">correlation matrix</a>, <a class="one" href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/shiny_corr/app.R">(Interactive Shiny App Figure 9)</a> will be generated. From a comprehensive comparison, we selected all the features and could see that the top two factors related to cancer incidence rate are smoking and diabetes.
+		</font></p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			Then we decided to conduct hypothesis tests on the relationship between smoking and cancer rate as well as between diabetes and cancer incidence rate by linear regression. As a result from <a class="one" href="../../../Part1/eda/subquestion4/index.htm" target="_blank">part 1</a>, even though all parameters are statistically significant, the R-squared for both regression lines are really small. Therefore, we are not able to conclude that there is some relationship between smoking and cancer rate, or between diabetes and cancer incidence rate.
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			In addition to the previous linear regression, we decided to plot the multiple regression for the cancer rate by using plotly 3D scatter plot.
+		</font></p><br />	
+		<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~yw516/27.embed" style="margin-left: 5%"></iframe>
+		<br />
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/ggplot/ggplot_regression/linear_regression.R" target="_blank">Figure 10</a> (Plotly Rotatable 3D)</p>
+		<br />
+		<img src="new_summary.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 400px;padding-left: calc(150px + 10%);">
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/3d_plotly/3d_plotly.R" target="_blank">Figure 11</a> (R)</p>
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			The result was consistent with the previous finding. All the parameters were statistically significant but with really small the R-squared. Ultimately, we were not able to conclude that there is some relationship between smoking or diabetes to cancer incidence rate.
+		</font></p><br />
+		
+
+		<br />
+		<br />
+
+
+
+	</body>
+

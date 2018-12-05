@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+   
+		<title>ANLY 503</title>
+		<link rel="icon" type="image/png" href="GU_icon.png">
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../css/site.css" rel="stylesheet">
+		<style>
+			a {
+			    text-decoration: none;
+			    display: inline-block;
+			    padding: 8px 16px;
+			}
+
+			a.next:hover {
+			    background-color: #ddd;
+			    color: black;
+			}
+
+
+			.next {
+			    background-color: #094dba;
+			    color: white;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="position: fixed;">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+
+
+
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-left">
+	                    <li><a href="../../../index.htm"><font size="4">Home</font></a></li>
+	                    <li><a href="../../../Part1/index.htm"><font size="4">Project Part 1</font></a></li>
+	                    <li><a href="../../index.htm"><font size="4">Project Part 2</font></a></li>
+	                    <li><a href="../../introduction/index.htm"><font size="4">Introduction</font></a></li>
+	                    <li><a href="../index.htm"><font size="4">Visual Analysis</font></a></li>
+	                    <li><a href="../../conclusion/index.htm"><font size="4">Conclusion</font></a></li>
+	                    <li><a href="../../ref/index.htm"><font size="4">Reference</font></a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	    </nav>
+	    <div style="padding-left: calc(100px + 10%)">
+		    <a href="../subquestion1/index.htm" class = "next"> Sub-Question 1</a>
+		    <a href="../subquestion2/index.htm" class = "next"> Sub-Question 2</a>
+		    <a href="../subquestion3/index.htm" class = "next"> Sub-Question 3</a>
+		    <a href="../subquestion4/index.htm" class = "next"> Sub-Question 4</a>
+		    <a href="../subquestion5/index.htm" class = "next"> Sub-Question 5</a>
+	    </div>
+		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 1: What is the overall trending for cancer incidence rate, mortality rate, and death rate?</center></h1>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			We first plot the combined line chart for the cancer count and cancer rate. 
+		</font></p><br />
+		<iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plot.ly/~junw0318/5.embed"></iframe>
+		
+		
+		<br />
+		<p style = "padding-left: calc(250px + 15%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/Cancer%20Rate%20Trending%20Plotly.ipynb" target="_blank">Figure 4</a> (Plotly)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			In the chart above, the blue line represents the number of mortalities due to cancer and orange line represents the number of incidences. The green line is the trending for mortality rate and the red line is the trending for incidence rate, both with the unit of count per 100,000 people.
+		</font></p><br />
+		<iframe width="1000" height="600" frameborder="0" scrolling="no" src="//plot.ly/~yw516/66.embed"></iframe>
+		<br />
+		<p style = "padding-left: calc(250px + 15%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/Plotly_3d_slider.ipynb" target="_blank">Figure 5</a> (Plotly)</p>
+		<br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			The above 3D-scatter plot is the compact version of the line charts, with the size and color of the dot represents the cancer rate. The larger size and darker color dot have a large value of the cancer rate. The viewer can select the rate using the dropdown filter on the upper left corner. For both charts, we can see that even though the total number of counts for both incidence and mortality are increasing since 1999, the actual rates are decreasing. 
+
+		</font></p><br />
+		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			To obtain a clear overall trending, we introduce a new variable feature - death rate which is computed by the number of mortalities divides the number of incidences for each year. 
+		</font></p><br />
+		<img src="death_rate.png" alt="Snow" style="width:calc(350px + 40%);max-width: 800px; height: 400px;padding-left: calc(150px + 10%);">
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/death_rate_line.py" target="_blank">Figure 6</a> (Matplotlib/Pandas)</p>
+	    <br />
+	    <p style="padding-left: 8%; max-width: 1000px"><font size="4">
+			From the line chart above, we can see that there is a significant drop for the death rate since 1999, then there a fluctuation since 2009 and stabilized after 2013.
+		</font></p><br />
+	    <br />	
+
+
+	</body>
+
