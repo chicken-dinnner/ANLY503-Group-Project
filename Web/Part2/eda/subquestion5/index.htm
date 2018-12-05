@@ -81,19 +81,12 @@
 	    </div>
 		<h1 style="padding-left: calc(80px + 10%);max-width: 1000px"><center>Sub-Question 5: Could chemical use correlate with cancers?</center></h1>
 		<br />
-		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
-			Why cancer problem is getting more and more attention? We collected the total number of incidence across the U.S. from 1999 to 2015. Not surprisingly, we can observe that the total number of cancer incidence is significantly increased in the past 16 years: in 1999, the total number of cancer patients is approximately 1,300,000 people, but at the end of 2015, the total number is almost 1,650,000. This large growth makes cancer problem unignorable.
-		</font></p><br />
-		
-		<div class="bk-root" id="4aaab757-a411-4a7d-9900-1ead5189d92f" style="margin-left: 5%; width: 900px"></div>
-		<br />
-		<p style = "padding-left: calc(380px + 10%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/double_axis_line.py" target="_blank">Figure 17</a> (Python Bokeh)</p>
-		<br />
+
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			To determine if cancer is correlated with chemical use, it is better to divide the total number to each state, since the range of chemical use among all states is huge. After separating the total number to each state, we can see the following:
 		</font></p>
 		<div class="bk-root" id="08cec398-2ede-44b7-89f0-27014ba210ed" style="margin-left: 8%"></div>
-		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/paired_categ.py" target="_blank">Figure 18</a> (Python Bokeh)</p>
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/paired_categ.py" target="_blank">Figure 17</a> (Python Bokeh)</p>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			While more than half of the states do not have significant change, we can still see that the number of incidence in the rest of the states have increased. This comes to our question: are they correlate with their own chemical use?
@@ -102,7 +95,7 @@
 			To see the correlation between chemical use and cancer incidence rate, we use the following bubble chart to explore the correlation: 
 		</font></p><br />
 		<div class="bk-root" id="590013a5-fe2d-4412-8233-5e441985a26f" style="margin-left: calc(100px + 10%); width: 500px"></div>
-		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/box_seaborn.py" target="_blank">Figure 19</a> (Python Bokeh)</p>
+		<p style = "padding-left: calc(270px + 18%)"><a href="https://github.com/JunWang0318/ANLY503/blob/master/Vis_code/box_seaborn.py" target="_blank">Figure 18</a> (Python Bokeh)</p>
 		<br />
 		<p style="padding-left: 8%; max-width: 1000px"><font size="4">
 			The size of each bubble indicates the discrepancy between chemical use and cancer rate: each bubble indicates one state. If the rank of chemical use among all states is significantly different than the rank if cancer rate, then the size of the bubble will be larger than those states which have similar chemical use rank and cancer rate rank in the U.S. (e.g. if the chemical use rank of certain states is 40 and its cancer rate rank among all states is also 40, then the bubble size should be really small; otherwise if one rank is 1 and another is 50 then the bubble size will be large). 
