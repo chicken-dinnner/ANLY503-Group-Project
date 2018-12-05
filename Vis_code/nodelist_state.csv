@@ -1,0 +1,53 @@
+ID,NodeName,Rate,Vectors,Group
+45,Utah,0.1,"[0.26, 0.14, 0.63, 0.39, 0.1]",Low Cancer Rate
+11,Hawaii,0.18,"[0.41, 0.27, 0.68, 0.31, 0.34]",Low Cancer Rate
+5,Colorado,0.26,"[0.23, 0.35, 0.65, 0.24, 0.42]",Low Cancer Rate
+31,New Mexico,0.28,"[0.44, 0.42, 0.24, 0.45, 0.5]",Low Cancer Rate
+2,Arizona,0.3,"[0.42, 0.4, 0.38, 0.42, 0.41]",Low Cancer Rate
+4,California,0.33,"[0.45, 0.49, 0.58, 0.44, 0.25]",Low Cancer Rate
+12,Idaho,0.36,"[0.36, 0.28, 0.37, 0.48, 0.39]",Low Cancer Rate
+34,North Dakota,0.36,"[0.35, 0.3, 0.37, 0.57, 0.48]",Low Cancer Rate
+51,Wyoming,0.37,"[0.33, 0.2, 0.44, 0.44, 0.54]",Low Cancer Rate
+6,Connecticut,0.38,"[0.35, 0.51, 0.78, 0.36, 0.36]",Low Cancer Rate
+9,Florida,0.39,"[0.54, 0.48, 0.32, 0.45, 0.46]",Low Cancer Rate
+23,Minnesota,0.39,"[0.27, 0.28, 0.68, 0.46, 0.41]",Low Cancer Rate
+32,New York,0.39,"[0.47, 0.65, 0.43, 0.43, 0.43]",Low Cancer Rate
+26,Montana,0.41,"[0.31, 0.27, 0.22, 0.37, 0.45]",Low Cancer Rate
+27,Nebraska,0.41,"[0.36, 0.26, 0.46, 0.55, 0.46]",Low Cancer Rate
+41,South Dakota,0.42,"[0.35, 0.31, 0.36, 0.54, 0.5]",Low Cancer Rate
+43,Texas,0.42,"[0.51, 0.51, 0.37, 0.62, 0.44]",Low Cancer Rate
+15,Iowa,0.45,"[0.38, 0.24, 0.44, 0.58, 0.48]",Low Cancer Rate
+16,Kansas,0.45,"[0.4, 0.36, 0.39, 0.56, 0.45]",Low Cancer Rate
+48,Washington,0.45,"[0.37, 0.31, 0.6, 0.48, 0.39]",Low Cancer Rate
+50,Wisconsin,0.45,"[0.35, 0.25, 0.51, 0.53, 0.51]",Low Cancer Rate
+30,New Jersey,0.47,"[0.44, 0.48, 0.78, 0.41, 0.37]",Low Cancer Rate
+37,Oregon,0.47,"[0.38, 0.37, 0.44, 0.48, 0.42]",Low Cancer Rate
+46,Vermont,0.47,"[0.29, 0.29, 0.49, 0.37, 0.42]",Low Cancer Rate
+21,Massachusetts,0.48,"[0.35, 0.53, 0.67, 0.32, 0.36]",Low Cancer Rate
+44,United States,0.48,"[0.43, 0.46, 0.44, 0.52, 0.49]",Low Cancer Rate
+1,Alaska,0.49,"[0.22, 0.17, 0.74, 0.54, 0.63]",High Cancer Rate
+29,New Hampshire,0.49,"[0.35, 0.25, 0.8, 0.43, 0.46]",High Cancer Rate
+20,Maryland,0.5,"[0.46, 0.37, 0.83, 0.51, 0.39]",High Cancer Rate
+39,Rhode Island,0.5,"[0.39, 0.46, 0.51, 0.39, 0.45]",High Cancer Rate
+47,Virginia,0.5,"[0.43, 0.38, 0.69, 0.5, 0.48]",High Cancer Rate
+10,Georgia,0.51,"[0.51, 0.36, 0.39, 0.59, 0.5]",High Cancer Rate
+28,Nevada,0.51,"[0.42, 0.28, 0.47, 0.43, 0.62]",High Cancer Rate
+33,North Carolina,0.52,"[0.52, 0.44, 0.28, 0.59, 0.58]",High Cancer Rate
+22,Michigan,0.53,"[0.51, 0.37, 0.45, 0.64, 0.59]",High Cancer Rate
+13,Illinois,0.54,"[0.45, 0.42, 0.51, 0.53, 0.5]",High Cancer Rate
+38,Pennsylvania,0.54,"[0.5, 0.41, 0.44, 0.56, 0.56]",High Cancer Rate
+7,Delaware,0.57,"[0.47, 0.26, 0.56, 0.52, 0.52]",High Cancer Rate
+25,Missouri,0.57,"[0.47, 0.35, 0.41, 0.61, 0.65]",High Cancer Rate
+40,South Carolina,0.57,"[0.6, 0.36, 0.26, 0.64, 0.6]",High Cancer Rate
+19,Maine,0.59,"[0.43, 0.3, 0.36, 0.49, 0.51]",High Cancer Rate
+35,Ohio,0.6,"[0.52, 0.35, 0.38, 0.6, 0.64]",High Cancer Rate
+36,Oklahoma,0.6,"[0.56, 0.43, 0.27, 0.63, 0.67]",High Cancer Rate
+14,Indiana,0.61,"[0.5, 0.31, 0.37, 0.62, 0.68]",High Cancer Rate
+0,Alabama,0.62,"[0.64, 0.46, 0.24, 0.71, 0.61]",High Cancer Rate
+3,Arkansas,0.64,"[0.54, 0.4, 0.15, 0.66, 0.66]",High Cancer Rate
+42,Tennessee,0.65,"[0.61, 0.46, 0.24, 0.65, 0.65]",High Cancer Rate
+8,District of Columbia,0.67,"[0.45, 0.82, 0.5, 0.39, 0.42]",High Cancer Rate
+49,West Virginia,0.69,"[0.7, 0.39, 0.15, 0.74, 0.77]",High Cancer Rate
+18,Louisiana,0.7,"[0.58, 0.51, 0.18, 0.7, 0.62]",High Cancer Rate
+24,Mississippi,0.7,"[0.69, 0.52, 0.12, 0.78, 0.65]",High Cancer Rate
+17,Kentucky,0.75,"[0.55, 0.45, 0.23, 0.65, 0.82]",High Cancer Rate
