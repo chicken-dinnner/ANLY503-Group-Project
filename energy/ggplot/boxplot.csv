@@ -1,0 +1,1233 @@
+country,year,renew_share
+Belgium,1990,1.67
+Czech Rep.,1990,2.32
+France,1990,14.1
+Germany,1990,3.9
+Italy,1990,17.71
+Netherlands,1990,1.12
+Poland,1990,2.47
+Portugal,1990,35.08
+Romania,1990,17.74
+Spain,1990,17.61
+Sweden,1990,51.18
+United Kingdom,1990,2.44
+Norway,1990,99.79
+Turkey,1990,40.37
+Kazakhstan,1990,8.43
+Russia,1990,15.34
+Ukraine,1990,3.59
+Uzbekistan,1990,11.8
+Canada,1990,62.39
+United States,1990,11.96
+Argentina,1990,35.78
+Brazil,1990,94.5
+Chile,1990,53.84
+Colombia,1990,76.38
+Mexico,1990,24.69
+Venezuela,1990,62.34
+China,1990,20.41
+India,1990,24.49
+Indonesia,1990,20.92
+Japan,1990,12.16
+Malaysia,1990,17.33
+South Korea,1990,6.04
+Taiwan,1990,9.08
+Thailand,1990,11.26
+Australia,1990,10.08
+New Zealand,1990,80.01
+Algeria,1990,0.78
+Egypt,1990,23.5
+Nigeria,1990,32.59
+South Africa,1990,1.7
+Iran,1990,10.29
+Kuwait,1990,0
+Saudi Arabia,1990,0
+United Arab Emirates,1990,0
+Belgium,1991,1.79
+Czech Rep.,1991,2.18
+France,1991,13.97
+Germany,1991,3.85
+Italy,1991,22.05
+Netherlands,1991,1.26
+Poland,1991,2.59
+Portugal,1991,33.45
+Romania,1991,25.68
+Spain,1991,18.52
+Sweden,1991,44.46
+United Kingdom,1991,2.12
+Norway,1991,99.8
+Turkey,1991,37.85
+Kazakhstan,1991,8.37
+Russia,1991,15.69
+Ukraine,1991,4.28
+Uzbekistan,1991,11.13
+Canada,1991,61.42
+United States,1991,11.33
+Argentina,1991,30.74
+Brazil,1991,94.63
+Chile,1991,70.97
+Colombia,1991,75.68
+Mexico,1991,22.39
+Venezuela,1991,70.33
+China,1991,18.47
+India,1991,22.81
+Indonesia,1991,20.56
+Japan,1991,12.86
+Malaysia,1991,16.6
+South Korea,1991,4.4
+Taiwan,1991,5.56
+Thailand,1991,9.14
+Australia,1991,10.76
+New Zealand,1991,77.19
+Algeria,1991,1.58
+Egypt,1991,22.35
+Nigeria,1991,41.86
+South Africa,1991,2.25
+Iran,1991,11
+Kuwait,1991,0
+Saudi Arabia,1991,0
+United Arab Emirates,1991,0
+Belgium,1992,1.98
+Czech Rep.,1992,2.76
+France,1992,16.12
+Germany,1992,4.38
+Italy,1992,21.81
+Netherlands,1992,1.29
+Poland,1992,2.77
+Portugal,1992,19.83
+Romania,1992,21.59
+Spain,1992,13.62
+Sweden,1992,52.51
+United Kingdom,1992,2.52
+Norway,1992,99.82
+Turkey,1992,39.63
+Kazakhstan,1992,8.3
+Russia,1992,17.05
+Ukraine,1992,3.2
+Uzbekistan,1992,12.34
+Canada,1992,61.69
+United States,1992,10.48
+Argentina,1992,35.13
+Brazil,1992,94.42
+Chile,1992,82.69
+Colombia,1992,68.67
+Mexico,1992,25.66
+Venezuela,1992,70.09
+China,1992,17.58
+India,1992,20.75
+Indonesia,1992,23.84
+Japan,1992,11.04
+Malaysia,1992,14.87
+South Korea,1992,3.86
+Taiwan,1992,7.92
+Thailand,1992,7.42
+Australia,1992,10.3
+New Zealand,1992,72.59
+Algeria,1992,1.02
+Egypt,1992,21.24
+Nigeria,1992,40.85
+South Africa,1992,1.24
+Iran,1992,13.88
+Kuwait,1992,0
+Saudi Arabia,1992,0
+United Arab Emirates,1992,0
+Belgium,1993,1.8
+Czech Rep.,1993,2.98
+France,1993,14.79
+Germany,1993,4.62
+Italy,1993,21.67
+Netherlands,1993,1.43
+Poland,1993,2.72
+Portugal,1993,30.94
+Romania,1993,23.02
+Spain,1993,16.89
+Sweden,1993,53.11
+United Kingdom,1993,2.21
+Norway,1993,99.8
+Turkey,1993,46.18
+Kazakhstan,1993,9.85
+Russia,1993,18.23
+Ukraine,1993,4.89
+Uzbekistan,1993,14.97
+Canada,1993,61.73
+United States,1993,11
+Argentina,1993,39.22
+Brazil,1993,95.25
+Chile,1993,81.66
+Colombia,1993,73.25
+Mexico,1993,25.4
+Venezuela,1993,68.43
+China,1993,18.13
+India,1993,19.56
+Indonesia,1993,19.78
+Japan,1993,12.62
+Malaysia,1993,14.03
+South Korea,1993,4.15
+Taiwan,1993,5.83
+Thailand,1993,5.84
+Australia,1993,10.78
+New Zealand,1993,77.02
+Algeria,1993,1.71
+Egypt,1993,21.94
+Nigeria,1993,38.41
+South Africa,1993,0.85
+Iran,1993,12.89
+Kuwait,1993,0
+Saudi Arabia,1993,0
+United Arab Emirates,1993,0
+Belgium,1994,1.99
+Czech Rep.,1994,3.57
+France,1994,17.45
+Germany,1994,5.18
+Italy,1994,22.14
+Netherlands,1994,1.58
+Poland,1994,2.83
+Portugal,1994,37.24
+Romania,1994,23.66
+Spain,1994,18.54
+Sweden,1994,43.17
+United Kingdom,1994,2.58
+Norway,1994,99.65
+Turkey,1994,39.22
+Kazakhstan,1994,13.82
+Russia,1994,20.1
+Ukraine,1994,6.07
+Uzbekistan,1994,14.97
+Canada,1994,60.41
+United States,1994,10.31
+Argentina,1994,42.87
+Brazil,1994,95.41
+Chile,1994,74.27
+Colombia,1994,78.49
+Mexico,1994,19.02
+Venezuela,1994,72.01
+China,1994,18.09
+India,1994,21.22
+Indonesia,1994,15.66
+Japan,1994,8.93
+Malaysia,1994,16.69
+South Korea,1994,2.51
+Taiwan,1994,7.13
+Thailand,1994,6.34
+Australia,1994,10.35
+New Zealand,1994,82.05
+Algeria,1994,0.78
+Egypt,1994,22.25
+Nigeria,1994,35.81
+South Africa,1994,1.43
+Iran,1994,9.09
+Kuwait,1994,0
+Saudi Arabia,1994,0
+United Arab Emirates,1994,0
+Belgium,1995,2.1
+Czech Rep.,1995,4.4
+France,1995,15.89
+Germany,1995,5.66
+Italy,1995,18.88
+Netherlands,1995,1.73
+Poland,1995,2.82
+Portugal,1995,28.56
+Romania,1995,28.17
+Spain,1995,15.48
+Sweden,1995,47.6
+United Kingdom,1995,2.52
+Norway,1995,99.66
+Turkey,1995,41.57
+Kazakhstan,1995,12.5
+Russia,1995,20.52
+Ukraine,1995,5.23
+Uzbekistan,1995,13.04
+Canada,1995,61.01
+United States,1995,11.39
+Argentina,1995,40.35
+Brazil,1995,94.16
+Chile,1995,72.41
+Colombia,1995,76.4
+Mexico,1995,23.65
+Venezuela,1995,70.05
+China,1995,19.21
+India,1995,17.26
+Indonesia,1995,16.46
+Japan,1995,10.41
+Malaysia,1995,13.69
+South Korea,1995,3.12
+Taiwan,1995,6.67
+Thailand,1995,8.74
+Australia,1995,9.81
+New Zealand,1995,83.85
+Algeria,1995,0.92
+Egypt,1995,21.95
+Nigeria,1995,34.68
+South Africa,1995,0.97
+Iran,1995,8.58
+Kuwait,1995,0
+Saudi Arabia,1995,0
+United Arab Emirates,1995,0
+Belgium,1996,2
+Czech Rep.,1996,4.19
+France,1996,14.16
+Germany,1996,5.62
+Italy,1996,20.97
+Netherlands,1996,2.13
+Poland,1996,2.82
+Portugal,1996,46.02
+Romania,1996,25.68
+Spain,1996,24.27
+Sweden,1996,38.42
+United Kingdom,1996,2.06
+Norway,1996,99.5
+Turkey,1996,42.94
+Kazakhstan,1996,12.42
+Russia,1996,18.23
+Ukraine,1996,4.83
+Uzbekistan,1996,14.37
+Canada,1996,63.11
+United States,1996,12.2
+Argentina,1996,33.47
+Brazil,1996,93.56
+Chile,1996,60.45
+Colombia,1996,82.99
+Mexico,1996,24.66
+Venezuela,1996,71.24
+China,1996,17.55
+India,1996,15.77
+Indonesia,1996,15.53
+Japan,1996,10.1
+Malaysia,1996,10.09
+South Korea,1996,2.73
+Taiwan,1996,6.37
+Thailand,1996,9.13
+Australia,1996,9.39
+New Zealand,1996,79.06
+Algeria,1996,0.62
+Egypt,1996,20.96
+Nigeria,1996,33.86
+South Africa,1996,1.78
+Iran,1996,8.13
+Kuwait,1996,0
+Saudi Arabia,1996,0
+United Arab Emirates,1996,0
+Belgium,1997,1.98
+Czech Rep.,1997,3.98
+France,1997,13.92
+Germany,1997,4.82
+Italy,1997,20.34
+Netherlands,1997,2.33
+Poland,1997,2.79
+Portugal,1997,41.81
+Romania,1997,30.66
+Spain,1997,20.07
+Sweden,1997,48.29
+United Kingdom,1997,2.4
+Norway,1997,99.58
+Turkey,1997,38.91
+Kazakhstan,1997,12.5
+Russia,1997,18.89
+Ukraine,1997,5.64
+Uzbekistan,1997,12.54
+Canada,1997,62.36
+United States,1997,11.59
+Argentina,1997,39.53
+Brazil,1997,92.98
+Chile,1997,62.13
+Colombia,1997,71.64
+Mexico,1997,19.96
+Venezuela,1997,73.36
+China,1997,17.51
+India,1997,16.02
+Indonesia,1997,10.34
+Japan,1997,10.94
+Malaysia,1997,6.69
+South Korea,1997,2.44
+Taiwan,1997,6.66
+Thailand,1997,8.09
+Australia,1997,9.76
+New Zealand,1997,70.09
+Algeria,1997,0.33
+Egypt,1997,20.52
+Nigeria,1997,34.7
+South Africa,1997,2.3
+Iran,1997,7.09
+Kuwait,1997,0
+Saudi Arabia,1997,0
+United Arab Emirates,1997,0
+Belgium,1998,2.24
+Czech Rep.,1998,3.79
+France,1998,13.45
+Germany,1998,5.2
+Italy,1998,20.25
+Netherlands,1998,2.56
+Poland,1998,3.19
+Portugal,1998,36.49
+Romania,1998,35.31
+Spain,1998,19.83
+Sweden,1998,49.2
+United Kingdom,1998,2.83
+Norway,1998,99.62
+Turkey,1998,38.33
+Kazakhstan,1998,12.5
+Russia,1998,19.29
+Ukraine,1998,9.21
+Uzbekistan,1998,12.54
+Canada,1998,60.41
+United States,1998,10.22
+Argentina,1998,36.52
+Brazil,1998,92.92
+Chile,1998,48.17
+Colombia,1998,69.75
+Mexico,1998,17.59
+Venezuela,1998,71.6
+China,1998,18.06
+India,1998,16.7
+Indonesia,1998,15.77
+Japan,1998,10.98
+Malaysia,1998,8
+South Korea,1998,2.83
+Taiwan,1998,6.86
+Thailand,1998,6.11
+Australia,1998,8.6
+New Zealand,1998,75.65
+Algeria,1998,0.85
+Egypt,1998,19.41
+Nigeria,1998,38.22
+South Africa,1998,2.07
+Iran,1998,6.8
+Kuwait,1998,0
+Saudi Arabia,1998,0
+United Arab Emirates,1998,0
+Belgium,1999,2.36
+Czech Rep.,1999,4.47
+France,1999,15.21
+Germany,1999,5.84
+Italy,1999,21.73
+Netherlands,1999,2.89
+Poland,1999,3.15
+Portugal,1999,20.78
+Romania,1999,36.07
+Spain,1999,14.35
+Sweden,1999,48.28
+United Kingdom,1999,3.4
+Norway,1999,99.56
+Turkey,1999,29.98
+Kazakhstan,1999,12.91
+Russia,1999,19.08
+Ukraine,1999,8.43
+Uzbekistan,1999,12.55
+Canada,1999,61.19
+United States,1999,9.63
+Argentina,1999,27.54
+Brazil,1999,90.04
+Chile,1999,38.03
+Colombia,1999,79.86
+Mexico,1999,20.91
+Venezuela,1999,75.16
+China,1999,16.68
+India,1999,15.26
+Indonesia,1999,14.12
+Japan,1999,10.17
+Malaysia,1999,11.54
+South Korea,1999,2.6
+Taiwan,1999,5.7
+Thailand,1999,4.89
+Australia,1999,8.71
+New Zealand,1999,69.52
+Algeria,1999,0.76
+Egypt,1999,21.44
+Nigeria,1999,38.21
+South Africa,1999,1.73
+Iran,1999,4.42
+Kuwait,1999,0
+Saudi Arabia,1999,0
+United Arab Emirates,1999,0
+Belgium,2000,2.72
+Czech Rep.,2000,3.86
+France,2000,13.74
+Germany,2000,6.89
+Italy,2000,20.81
+Netherlands,2000,3.32
+Poland,2000,2.99
+Portugal,2000,30.3
+Romania,2000,28.46
+Spain,2000,16.95
+Sweden,2000,57.26
+United Kingdom,2000,3.36
+Norway,2000,99.72
+Turkey,2000,24.94
+Kazakhstan,2000,14.67
+Russia,2000,18.85
+Ukraine,2000,6.68
+Uzbekistan,2000,12.54
+Canada,2000,60.61
+United States,2000,8.81
+Argentina,2000,33.21
+Brazil,2000,89.49
+Chile,2000,48.55
+Colombia,2000,75.52
+Mexico,2000,19.8
+Venezuela,2000,73.75
+China,2000,16.64
+India,2000,13.59
+Indonesia,2000,15.96
+Japan,2000,10.07
+Malaysia,2000,10.06
+South Korea,2000,1.97
+Taiwan,2000,5.37
+Thailand,2000,6.81
+Australia,2000,8.54
+New Zealand,2000,71.5
+Algeria,2000,0.2
+Egypt,2000,17.7
+Nigeria,2000,38.22
+South Africa,2000,2.01
+Iran,2000,3.04
+Kuwait,2000,0
+Saudi Arabia,2000,0
+United Arab Emirates,2000,0
+Belgium,2001,2.85
+Czech Rep.,2001,4.01
+France,2001,14.92
+Germany,2001,7.23
+Italy,2001,22.03
+Netherlands,2001,3.53
+Poland,2001,3.21
+Portugal,2001,34.58
+Romania,2001,27.7
+Spain,2001,22.15
+Sweden,2001,51.57
+United Kingdom,2001,3.11
+Norway,2001,99.52
+Turkey,2001,19.84
+Kazakhstan,2001,14.21
+Russia,2001,19.74
+Ukraine,2001,7.06
+Uzbekistan,2001,12.55
+Canada,2001,58.04
+United States,2001,7.42
+Argentina,2001,41.84
+Brazil,2001,84.29
+Chile,2001,54.26
+Colombia,2001,74.34
+Mexico,2001,17.11
+Venezuela,2001,67.07
+China,2001,18.96
+India,2001,13.21
+Indonesia,2001,17.47
+Japan,2001,9.94
+Malaysia,2001,9.93
+South Korea,2001,1.95
+Taiwan,2001,5.52
+Thailand,2001,6.64
+Australia,2001,8.25
+New Zealand,2001,63.56
+Algeria,2001,0.24
+Egypt,2001,18.43
+Nigeria,2001,38.22
+South Africa,2001,2.01
+Iran,2001,3.91
+Kuwait,2001,0
+Saudi Arabia,2001,0
+United Arab Emirates,2001,0
+Belgium,2002,2.76
+Czech Rep.,2002,4.39
+France,2002,12.46
+Germany,2002,8.39
+Italy,2002,19.65
+Netherlands,2002,4.14
+Poland,2002,3.05
+Portugal,2002,22.1
+Romania,2002,29.32
+Spain,2002,15.61
+Sweden,2002,48.51
+United Kingdom,2002,3.56
+Norway,2002,99.58
+Turkey,2002,26.25
+Kazakhstan,2002,15.24
+Russia,2002,18.44
+Ukraine,2002,5.65
+Uzbekistan,2002,12.55
+Canada,2002,59.89
+United States,2002,9.2
+Argentina,2002,43.59
+Brazil,2002,85.74
+Chile,2002,55.45
+Colombia,2002,76.5
+Mexico,2002,15.06
+Venezuela,2002,64.82
+China,2002,17.62
+India,2002,12.06
+Indonesia,2002,14.95
+Japan,2002,9.64
+Malaysia,2002,7.14
+South Korea,2002,1.66
+Taiwan,2002,3.84
+Thailand,2002,7.48
+Australia,2002,7.93
+New Zealand,2002,69.48
+Algeria,2002,0.19
+Egypt,2002,14.65
+Nigeria,2002,38.22
+South Africa,2002,2.11
+Iran,2002,5.73
+Kuwait,2002,0
+Saudi Arabia,2002,0
+United Arab Emirates,2002,0
+Belgium,2003,2.67
+Czech Rep.,2003,2.75
+France,2003,12.07
+Germany,2003,8.34
+Italy,2003,18.54
+Netherlands,2003,4.09
+Poland,2003,2.55
+Portugal,2003,38.49
+Romania,2003,24.05
+Spain,2003,22.7
+Sweden,2003,43.41
+United Kingdom,2003,3.35
+Norway,2003,99.4
+Turkey,2003,25.29
+Kazakhstan,2003,13.5
+Russia,2003,17.25
+Ukraine,2003,5.22
+Uzbekistan,2003,15.43
+Canada,2003,58.92
+United States,2003,9.49
+Argentina,2003,37.97
+Brazil,2003,87.16
+Chile,2003,50.16
+Colombia,2003,78.79
+Mexico,2003,12.13
+Venezuela,2003,65.84
+China,2003,15.04
+India,2003,13.47
+Indonesia,2003,13.64
+Japan,2003,10.98
+Malaysia,2003,6.44
+South Korea,2003,2.06
+Taiwan,2003,4.04
+Thailand,2003,7.22
+Australia,2003,8.53
+New Zealand,2003,66
+Algeria,2003,0.83
+Egypt,2003,14.06
+Nigeria,2003,36.9
+South Africa,2003,1.69
+Iran,2003,7.23
+Kuwait,2003,0
+Saudi Arabia,2003,0
+United Arab Emirates,2003,0
+Belgium,2004,3.25
+Czech Rep.,2004,3.89
+France,2004,12.07
+Germany,2004,10.2
+Italy,2004,20.25
+Netherlands,2004,5.24
+Poland,2004,3.12
+Portugal,2004,27.92
+Romania,2004,29.23
+Spain,2004,19.12
+Sweden,2004,44.97
+United Kingdom,2004,4.26
+Norway,2004,99.35
+Turkey,2004,30.73
+Kazakhstan,2004,12.04
+Russia,2004,19.13
+Ukraine,2004,6.54
+Uzbekistan,2004,18.02
+Canada,2004,58.45
+United States,2004,9.22
+Argentina,2004,31.69
+Brazil,2004,86.03
+Chile,2004,46.9
+Colombia,2004,81.65
+Mexico,2004,14.45
+Venezuela,2004,71.1
+China,2004,16.22
+India,2004,14.48
+Indonesia,2004,13.61
+Japan,2004,10.7
+Malaysia,2004,7.09
+South Korea,2004,1.68
+Taiwan,2004,3.86
+Thailand,2004,5.82
+Australia,2004,8.28
+New Zealand,2004,72.06
+Algeria,2004,0.75
+Egypt,2004,13
+Nigeria,2004,33.4
+South Africa,2004,2
+Iran,2004,6.39
+Kuwait,2004,0
+Saudi Arabia,2004,0
+United Arab Emirates,2004,0
+Belgium,2005,3.93
+Czech Rep.,2005,4.58
+France,2005,10.62
+Germany,2005,11.13
+Italy,2005,18.21
+Netherlands,2005,7.45
+Poland,2005,3.46
+Portugal,2005,18.57
+Romania,2005,34.02
+Spain,2005,15.95
+Sweden,2005,51.32
+United Kingdom,2005,4.99
+Norway,2005,99.47
+Turkey,2005,24.54
+Kazakhstan,2005,11.58
+Russia,2005,18.37
+Ukraine,2005,6.74
+Uzbekistan,2005,17.54
+Canada,2005,60.04
+United States,2005,9.12
+Argentina,2005,33.69
+Brazil,2005,87.12
+Chile,2005,53.88
+Colombia,2005,80.17
+Mexico,2005,15.2
+Venezuela,2005,73.28
+China,2005,16.18
+India,2005,16.62
+Indonesia,2005,13.61
+Japan,2005,9.2
+Malaysia,2005,6.28
+South Korea,2005,1.43
+Taiwan,2005,4.29
+Thailand,2005,5.54
+Australia,2005,8.92
+New Zealand,2005,64.24
+Algeria,2005,1.53
+Egypt,2005,12.14
+Nigeria,2005,33
+South Africa,2005,1.83
+Iran,2005,9.08
+Kuwait,2005,0
+Saudi Arabia,2005,0
+United Arab Emirates,2005,0
+Belgium,2006,4.93
+Czech Rep.,2006,5.01
+France,2006,11.79
+Germany,2006,12.26
+Italy,2006,18.17
+Netherlands,2006,8.15
+Poland,2006,3.26
+Portugal,2006,33.01
+Romania,2006,29.28
+Spain,2006,18.71
+Sweden,2006,49.65
+United Kingdom,2006,5.53
+Norway,2006,99.32
+Turkey,2006,25.25
+Kazakhstan,2006,10.84
+Russia,2006,17.65
+Ukraine,2006,6.76
+Uzbekistan,2006,17.99
+Canada,2006,59.55
+United States,2006,9.79
+Argentina,2006,37.25
+Brazil,2006,86.75
+Chile,2006,55.25
+Colombia,2006,80.6
+Mexico,2006,15.33
+Venezuela,2006,73.9
+China,2006,15.59
+India,2006,17.54
+Indonesia,2006,12.26
+Japan,2006,10.23
+Malaysia,2006,7.17
+South Korea,2006,1.43
+Taiwan,2006,4.32
+Thailand,2006,6.92
+Australia,2006,9.34
+New Zealand,2006,64.48
+Algeria,2006,0.58
+Egypt,2006,11.73
+Nigeria,2006,27.1
+South Africa,2006,2.41
+Iran,2006,9.54
+Kuwait,2006,0
+Saudi Arabia,2006,0
+United Arab Emirates,2006,0
+Belgium,2007,5.38
+Czech Rep.,2007,4.36
+France,2007,12.57
+Germany,2007,14.87
+Italy,2007,17.01
+Netherlands,2007,7.21
+Poland,2007,3.78
+Portugal,2007,35.08
+Romania,2007,25.95
+Spain,2007,20.16
+Sweden,2007,52.06
+United Kingdom,2007,5.93
+Norway,2007,99.14
+Turkey,2007,19.03
+Kazakhstan,2007,10.67
+Russia,2007,17.68
+Ukraine,2007,5.39
+Uzbekistan,2007,13.07
+Canada,2007,60.3
+United States,2007,8.91
+Argentina,2007,30.06
+Brazil,2007,88.21
+Chile,2007,44.16
+Colombia,2007,81.53
+Mexico,2007,14.09
+Venezuela,2007,72.72
+China,2007,15.26
+India,2007,17.86
+Indonesia,2007,12.9
+Japan,2007,9.01
+Malaysia,2007,6.66
+South Korea,2007,1.4
+Taiwan,2007,4.52
+Thailand,2007,6.91
+Australia,2007,8.71
+New Zealand,2007,65.57
+Algeria,2007,0.57
+Egypt,2007,13.06
+Nigeria,2007,27.1
+South Africa,2007,1.57
+Iran,2007,8.89
+Kuwait,2007,0
+Saudi Arabia,2007,0
+United Arab Emirates,2007,0
+Belgium,2008,6.79
+Czech Rep.,2008,4.88
+France,2008,13.69
+Germany,2008,15.5
+Italy,2008,19.98
+Netherlands,2008,8.86
+Poland,2008,4.64
+Portugal,2008,32.93
+Romania,2008,26.52
+Spain,2008,20.69
+Sweden,2008,54.35
+United Kingdom,2008,6.67
+Norway,2008,99.41
+Turkey,2008,17.35
+Kazakhstan,2008,9.29
+Russia,2008,16.07
+Ukraine,2008,6.14
+Uzbekistan,2008,23
+Canada,2008,61.48
+United States,2008,9.53
+Argentina,2008,26.54
+Brazil,2008,84.27
+Chile,2008,45.75
+Colombia,2008,84.01
+Mexico,2008,17.54
+Venezuela,2008,72.79
+China,2008,17.74
+India,2008,16.51
+Indonesia,2008,13.32
+Japan,2008,9.37
+Malaysia,2008,7.63
+South Korea,2008,1.54
+Taiwan,2008,4.36
+Thailand,2008,6.6
+Australia,2008,8.17
+New Zealand,2008,64.25
+Algeria,2008,0.66
+Egypt,2008,11.9
+Nigeria,2008,27.1
+South Africa,2008,1.65
+Iran,2008,2.42
+Kuwait,2008,0
+Saudi Arabia,2008,0
+United Arab Emirates,2008,0
+Belgium,2009,7.53
+Czech Rep.,2009,6.34
+France,2009,13.93
+Germany,2009,16.87
+Italy,2009,25.14
+Netherlands,2009,9.53
+Poland,2009,6.11
+Portugal,2009,37.88
+Romania,2009,27.28
+Spain,2009,26.08
+Sweden,2009,58.46
+United Kingdom,2009,7.68
+Norway,2009,96.59
+Turkey,2009,19.58
+Kazakhstan,2009,8.74
+Russia,2009,17.8
+Ukraine,2009,6.98
+Uzbekistan,2009,18.68
+Canada,2009,62.86
+United States,2009,10.78
+Argentina,2009,29.18
+Brazil,2009,89
+Chile,2009,48.83
+Colombia,2009,72.88
+Mexico,2009,12.95
+Venezuela,2009,71.89
+China,2009,17.86
+India,2009,15.66
+Indonesia,2009,13.23
+Japan,2009,9.73
+Malaysia,2009,7.01
+South Korea,2009,1.65
+Taiwan,2009,4.27
+Thailand,2009,6.9
+Australia,2009,7.52
+New Zealand,2009,71.71
+Algeria,2009,0.75
+Egypt,2009,10.07
+Nigeria,2009,22.9
+South Africa,2009,1.78
+Iran,2009,3.37
+Kuwait,2009,0
+Saudi Arabia,2009,0
+United Arab Emirates,2009,0
+Belgium,2010,8.25
+Czech Rep.,2010,7.56
+France,2010,14.59
+Germany,2010,17.57
+Italy,2010,26.57
+Netherlands,2010,9.39
+Poland,2010,7.27
+Portugal,2010,53.16
+Romania,2010,33.88
+Spain,2010,33.49
+Sweden,2010,55.33
+United Kingdom,2010,7.58
+Norway,2010,95.75
+Turkey,2010,26.38
+Kazakhstan,2010,9.71
+Russia,2010,16.28
+Ukraine,2010,7.09
+Uzbekistan,2010,20.98
+Canada,2010,61.4
+United States,2010,10.61
+Argentina,2010,28.77
+Brazil,2010,84.72
+Chile,2010,40.2
+Colombia,2010,72.12
+Mexico,2010,16.6
+Venezuela,2010,67.49
+China,2010,18.83
+India,2010,16.04
+Indonesia,2010,15.85
+Japan,2010,11.19
+Malaysia,2010,5.99
+South Korea,2010,1.8
+Taiwan,2010,4.2
+Thailand,2010,5.61
+Australia,2010,8.63
+New Zealand,2010,73.18
+Algeria,2010,0.36
+Egypt,2010,10.05
+Nigeria,2010,24.4
+South Africa,2010,2.08
+Iran,2010,4.16
+Kuwait,2010,0
+Saudi Arabia,2010,0
+United Arab Emirates,2010,0
+Belgium,2011,10.64
+Czech Rep.,2011,9.09
+France,2011,12.37
+Germany,2011,21.14
+Italy,2011,28.06
+Netherlands,2011,10.81
+Poland,2011,8.3
+Portugal,2011,47.06
+Romania,2011,26.57
+Spain,2011,30.57
+Sweden,2011,55.98
+United Kingdom,2011,10.21
+Norway,2011,96.53
+Turkey,2011,25.33
+Kazakhstan,2011,9.1
+Russia,2011,15.94
+Ukraine,2011,5.75
+Uzbekistan,2011,19.54
+Canada,2011,62.34
+United States,2011,12.69
+Argentina,2011,32.48
+Brazil,2011,87.12
+Chile,2011,39.6
+Colombia,2011,83.47
+Mexico,2011,14.89
+Venezuela,2011,70.93
+China,2011,16.95
+India,2011,17.32
+Indonesia,2011,11.99
+Japan,2011,12.16
+Malaysia,2011,6.71
+South Korea,2011,2.05
+Taiwan,2011,4.08
+Thailand,2011,8.05
+Australia,2011,10.44
+New Zealand,2011,76.04
+Algeria,2011,0.9
+Egypt,2011,9.33
+Nigeria,2011,21.76
+South Africa,2011,2.04
+Iran,2011,5.12
+Kuwait,2011,0
+Saudi Arabia,2011,0
+United Arab Emirates,2011,0
+Belgium,2012,14.18
+Czech Rep.,2012,10.06
+France,2012,15.56
+Germany,2012,23.75
+Italy,2012,31.48
+Netherlands,2012,12.11
+Poland,2012,10.67
+Portugal,2012,43.78
+Romania,2012,25.74
+Spain,2012,30.44
+Sweden,2012,59.1
+United Kingdom,2012,12.15
+Norway,2012,97.97
+Turkey,2012,27.23
+Kazakhstan,2012,8.23
+Russia,2012,15.68
+Ukraine,2012,5.91
+Uzbekistan,2012,21.35
+Canada,2012,63.24
+United States,2012,12.41
+Argentina,2012,29.49
+Brazil,2012,82.45
+Chile,2012,36.45
+Colombia,2012,79.55
+Mexico,2012,13.79
+Venezuela,2012,67.41
+China,2012,20.12
+India,2012,15.73
+Indonesia,2012,11.24
+Japan,2012,11.87
+Malaysia,2012,7.38
+South Korea,2012,2.02
+Taiwan,2012,4.81
+Thailand,2012,8.39
+Australia,2012,10.61
+New Zealand,2012,71.87
+Algeria,2012,1
+Egypt,2012,8.88
+Nigeria,2012,19.71
+South Africa,2012,1.76
+Iran,2012,4.99
+Kuwait,2012,0
+Saudi Arabia,2012,0
+United Arab Emirates,2012,0
+Belgium,2013,15.57
+Czech Rep.,2013,11.75
+France,2013,17.79
+Germany,2013,24.76
+Italy,2013,39.31
+Netherlands,2013,11.98
+Poland,2013,10.71
+Portugal,2013,59.24
+Romania,2013,34.81
+Spain,2013,40.47
+Sweden,2013,54.07
+United Kingdom,2013,15.68
+Norway,2013,97.71
+Turkey,2013,28.82
+Kazakhstan,2013,7.51
+Russia,2013,17.29
+Ukraine,2013,8.12
+Uzbekistan,2013,21.33
+Canada,2013,63.3
+United States,2013,13.03
+Argentina,2013,31.68
+Brazil,2013,76.69
+Chile,2013,35.67
+Colombia,2013,74
+Mexico,2013,13.3
+Venezuela,2013,67.83
+China,2013,20.45
+India,2013,17.35
+Indonesia,2013,12.27
+Japan,2013,12.77
+Malaysia,2013,8.58
+South Korea,2013,2.38
+Taiwan,2013,4.95
+Thailand,2013,8.28
+Australia,2013,13.3
+New Zealand,2013,74.26
+Algeria,2013,0.51
+Egypt,2013,8.88
+Nigeria,2013,18.44
+South Africa,2013,1.73
+Iran,2013,5.71
+Kuwait,2013,0
+Saudi Arabia,2013,0
+United Arab Emirates,2013,0.09
+Belgium,2014,18.42
+Czech Rep.,2014,11.87
+France,2014,17.32
+Germany,2014,26.82
+Italy,2014,43.74
+Netherlands,2014,11.32
+Poland,2014,12.82
+Portugal,2014,61.37
+Romania,2014,42.03
+Spain,2014,40.92
+Sweden,2014,55.87
+United Kingdom,2014,19.95
+Norway,2014,97.67
+Turkey,2014,20.89
+Kazakhstan,2014,7.88
+Russia,2014,16.72
+Ukraine,2014,6.02
+Uzbekistan,2014,21.35
+Canada,2014,62.83
+United States,2014,13.36
+Argentina,2014,31.79
+Brazil,2014,73.08
+Chile,2014,42.41
+Colombia,2014,74.04
+Mexico,2014,17.54
+Venezuela,2014,68.26
+China,2014,22.79
+India,2014,16.25
+Indonesia,2014,11.48
+Japan,2014,14.48
+Malaysia,2014,9.71
+South Korea,2014,2.47
+Taiwan,2014,4.44
+Thailand,2014,8.51
+Australia,2014,14.92
+New Zealand,2014,79.2
+Algeria,2014,0.36
+Egypt,2014,8.87
+Nigeria,2014,17.59
+South Africa,2014,2.51
+Iran,2014,5.2
+Kuwait,2014,0
+Saudi Arabia,2014,0
+United Arab Emirates,2014,0.26
+Belgium,2015,22.03
+Czech Rep.,2015,12.75
+France,2015,16.59
+Germany,2015,29.88
+Italy,2015,38.99
+Netherlands,2015,12.44
+Poland,2015,14.12
+Portugal,2015,48.67
+Romania,2015,40.09
+Spain,2015,35.7
+Sweden,2015,63.29
+United Kingdom,2015,25.45
+Norway,2015,97.73
+Turkey,2015,31.96
+Kazakhstan,2015,8.87
+Russia,2015,16.01
+Ukraine,2015,5.3
+Uzbekistan,2015,20.65
+Canada,2015,63.02
+United States,2015,13.63
+Argentina,2015,28.38
+Brazil,2015,73.97
+Chile,2015,43.6
+Colombia,2015,68.24
+Mexico,2015,15.39
+Venezuela,2015,63.7
+China,2015,24.13
+India,2015,15.34
+Indonesia,2015,10.65
+Japan,2015,16.48
+Malaysia,2015,9.96
+South Korea,2015,2.54
+Taiwan,2015,4.67
+Thailand,2015,8.54
+Australia,2015,13.67
+New Zealand,2015,80.08
+Algeria,2015,0.29
+Egypt,2015,8.26
+Nigeria,2015,18.2
+South Africa,2015,3.4
+Iran,2015,5.1
+Kuwait,2015,0
+Saudi Arabia,2015,0
+United Arab Emirates,2015,0.23
+Belgium,2016,17.37
+Czech Rep.,2016,12.69
+France,2016,18.45
+Germany,2016,30.02
+Italy,2016,37.53
+Netherlands,2016,12.8
+Poland,2016,14.02
+Portugal,2016,55.44
+Romania,2016,43.75
+Spain,2016,39.35
+Sweden,2016,57.02
+United Kingdom,2016,25.31
+Norway,2016,97.87
+Turkey,2016,32.92
+Kazakhstan,2016,10.72
+Russia,2016,17.45
+Ukraine,2016,6.66
+Uzbekistan,2016,20.2
+Canada,2016,64.08
+United States,2016,15.42
+Argentina,2016,25.6
+Brazil,2016,80.96
+Chile,2016,39.08
+Colombia,2016,72.11
+Mexico,2016,15.36
+Venezuela,2016,57.6
+China,2016,25.4
+India,2016,15.49
+Indonesia,2016,12.64
+Japan,2016,16.5
+Malaysia,2016,11.02
+South Korea,2016,2.93
+Taiwan,2016,5.46
+Thailand,2016,9.73
+Australia,2016,15.78
+New Zealand,2016,84.17
+Algeria,2016,0.38
+Egypt,2016,8.32
+Nigeria,2016,18.2
+South Africa,2016,3.96
+Iran,2016,5.72
+Kuwait,2016,0
+Saudi Arabia,2016,0
+United Arab Emirates,2016,0.22
+Belgium,2017,18.65
+Czech Rep.,2017,12.45
+France,2017,17.56
+Germany,2017,33.98
+Italy,2017,35.74
+Netherlands,2017,14.84
+Poland,2017,15.48
+Portugal,2017,39.75
+Romania,2017,38.7
+Spain,2017,32.17
+Sweden,2017,57.53
+United Kingdom,2017,30.16
+Norway,2017,97.87
+Turkey,2017,29.46
+Kazakhstan,2017,9.47
+Russia,2017,17.51
+Ukraine,2017,7.86
+Uzbekistan,2017,19.77
+Canada,2017,64.71
+United States,2017,17.66
+Argentina,2017,28.23
+Brazil,2017,79.71
+Chile,2017,44.5
+Colombia,2017,86.78
+Mexico,2017,16.56
+Venezuela,2017,63.33
+China,2017,25.97
+India,2017,16.29
+Indonesia,2017,12.32
+Japan,2017,17.79
+Malaysia,2017,12.35
+South Korea,2017,3.36
+Taiwan,2017,5.24
+Thailand,2017,11.86
+Australia,2017,14.95
+New Zealand,2017,81.39
+Algeria,2017,0.62
+Egypt,2017,8.45
+Nigeria,2017,18.21
+South Africa,2017,4.17
+Iran,2017,5.14
+Kuwait,2017,0
+Saudi Arabia,2017,0
+United Arab Emirates,2017,0.57
